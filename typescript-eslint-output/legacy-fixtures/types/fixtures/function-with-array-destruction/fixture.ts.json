@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 78,
+        "end": 81
+      },
+      "typeAnnotation": {
+        "type": "TSFunctionType",
+        "params": [
+          {
+            "type": "ArrayPattern",
+            "decorators": [],
+            "elements": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "start": 86,
+                "end": 87
+              }
+            ],
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 90,
+                "end": 93
+              },
+              "start": 88,
+              "end": 93
+            },
+            "start": 85,
+            "end": 93
+          }
+        ],
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "typeAnnotation": {
+            "type": "TSAnyKeyword",
+            "start": 98,
+            "end": 101
+          },
+          "start": 95,
+          "end": 101
+        },
+        "start": 84,
+        "end": 101
+      },
+      "start": 73,
+      "end": 102
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 103
+}

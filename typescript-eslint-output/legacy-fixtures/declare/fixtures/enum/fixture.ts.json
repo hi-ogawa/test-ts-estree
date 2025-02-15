@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSEnumDeclaration",
+      "body": {
+        "type": "TSEnumBody",
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "computed": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "Bar",
+              "optional": false,
+              "start": 94,
+              "end": 97
+            },
+            "start": 94,
+            "end": 97
+          },
+          {
+            "type": "TSEnumMember",
+            "computed": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "Baz",
+              "optional": false,
+              "start": 101,
+              "end": 104
+            },
+            "start": 101,
+            "end": 104
+          }
+        ],
+        "start": 90,
+        "end": 107
+      },
+      "const": false,
+      "declare": true,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 86,
+        "end": 89
+      },
+      "start": 73,
+      "end": 107
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 108
+}

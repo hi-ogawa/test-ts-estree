@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "TSTypeAliasDeclaration",
+        "declare": false,
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "TestCallback",
+          "optional": false,
+          "start": 85,
+          "end": 97
+        },
+        "typeAnnotation": {
+          "type": "TSFunctionType",
+          "params": [
+            {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 104,
+                  "end": 110
+                },
+                "start": 102,
+                "end": 110
+              },
+              "start": 101,
+              "end": 110
+            }
+          ],
+          "returnType": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSVoidKeyword",
+              "start": 115,
+              "end": 119
+            },
+            "start": 112,
+            "end": 119
+          },
+          "start": 100,
+          "end": 119
+        },
+        "start": 80,
+        "end": 120
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "start": 73,
+      "end": 120
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 121
+}

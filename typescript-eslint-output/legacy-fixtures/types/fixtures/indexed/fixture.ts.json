@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSIndexedAccessType",
+                "indexType": {
+                  "type": "TSTypeReference",
+                  "typeName": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "K",
+                    "optional": false,
+                    "start": 82,
+                    "end": 83
+                  },
+                  "start": 82,
+                  "end": 83
+                },
+                "objectType": {
+                  "type": "TSTypeReference",
+                  "typeName": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "start": 80,
+                    "end": 81
+                  },
+                  "start": 80,
+                  "end": 81
+                },
+                "start": 80,
+                "end": 84
+              },
+              "start": 78,
+              "end": 84
+            },
+            "start": 77,
+            "end": 84
+          },
+          "init": null,
+          "start": 77,
+          "end": 84
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 85
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 86
+}

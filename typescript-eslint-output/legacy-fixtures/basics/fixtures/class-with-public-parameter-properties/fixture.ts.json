@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 87,
+              "end": 98
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 247,
+                "end": 249
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "public",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "firstName",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSStringKeyword",
+                        "start": 122,
+                        "end": 128
+                      },
+                      "start": 120,
+                      "end": 128
+                    },
+                    "start": 111,
+                    "end": 128
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "start": 104,
+                  "end": 128
+                },
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "public",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "lastName",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSStringKeyword",
+                        "start": 160,
+                        "end": 166
+                      },
+                      "start": 158,
+                      "end": 166
+                    },
+                    "start": 150,
+                    "end": 166
+                  },
+                  "readonly": true,
+                  "static": false,
+                  "start": 134,
+                  "end": 166
+                },
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "public",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "AssignmentPattern",
+                    "decorators": [],
+                    "left": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "age",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "TSTypeAnnotation",
+                        "typeAnnotation": {
+                          "type": "TSNumberKeyword",
+                          "start": 184,
+                          "end": 190
+                        },
+                        "start": 182,
+                        "end": 190
+                      },
+                      "start": 179,
+                      "end": 190
+                    },
+                    "optional": false,
+                    "right": {
+                      "type": "Literal",
+                      "raw": "30",
+                      "value": 30,
+                      "start": 193,
+                      "end": 195
+                    },
+                    "start": 179,
+                    "end": 195
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "start": 172,
+                  "end": 195
+                },
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "public",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "AssignmentPattern",
+                    "decorators": [],
+                    "left": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "student",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "TSTypeAnnotation",
+                        "typeAnnotation": {
+                          "type": "TSBooleanKeyword",
+                          "start": 226,
+                          "end": 233
+                        },
+                        "start": 224,
+                        "end": 233
+                      },
+                      "start": 217,
+                      "end": 233
+                    },
+                    "optional": false,
+                    "right": {
+                      "type": "Literal",
+                      "raw": "false",
+                      "value": false,
+                      "start": 236,
+                      "end": 241
+                    },
+                    "start": 217,
+                    "end": 241
+                  },
+                  "readonly": true,
+                  "static": false,
+                  "start": 201,
+                  "end": 241
+                }
+              ],
+              "start": 98,
+              "end": 249
+            },
+            "start": 87,
+            "end": 249
+          }
+        ],
+        "start": 83,
+        "end": 251
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 251
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 252
+}

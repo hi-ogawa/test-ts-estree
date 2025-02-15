@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "TSModuleDeclaration",
+            "kind": "module",
+            "body": {
+              "type": "TSModuleBlock",
+              "body": [],
+              "start": 114,
+              "end": 116
+            },
+            "declare": true,
+            "global": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "global",
+              "optional": false,
+              "start": 107,
+              "end": 113
+            },
+            "start": 92,
+            "end": 116
+          },
+          {
+            "type": "TSModuleDeclaration",
+            "body": {
+              "type": "TSModuleBlock",
+              "body": [],
+              "start": 144,
+              "end": 146
+            },
+            "declare": true,
+            "global": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "global",
+              "optional": false,
+              "start": 137,
+              "end": 143
+            },
+            "kind": "namespace",
+            "start": 119,
+            "end": 146
+          }
+        ],
+        "start": 88,
+        "end": 148
+      },
+      "declare": true,
+      "global": true,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "start": 81,
+        "end": 87
+      },
+      "kind": "global",
+      "start": 73,
+      "end": 148
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 149
+}

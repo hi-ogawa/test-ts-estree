@@ -1,0 +1,48 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "TSTypeAliasDeclaration",
+        "declare": false,
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "TestAlias",
+          "optional": false,
+          "start": 85,
+          "end": 94
+        },
+        "typeAnnotation": {
+          "type": "TSUnionType",
+          "types": [
+            {
+              "type": "TSStringKeyword",
+              "start": 97,
+              "end": 103
+            },
+            {
+              "type": "TSNumberKeyword",
+              "start": 106,
+              "end": 112
+            }
+          ],
+          "start": 97,
+          "end": 112
+        },
+        "start": 80,
+        "end": 113
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "start": 73,
+      "end": 113
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 114
+}

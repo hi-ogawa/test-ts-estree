@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "T",
+        "optional": false,
+        "start": 5,
+        "end": 6
+      },
+      "typeAnnotation": {
+        "type": "TSLiteralType",
+        "literal": {
+          "type": "Literal",
+          "raw": "1",
+          "value": 1,
+          "start": 18,
+          "end": 19
+        },
+        "start": 18,
+        "end": 19
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "U",
+              "optional": false,
+              "start": 7,
+              "end": 8
+            },
+            "out": false,
+            "start": 7,
+            "end": 8
+          },
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "V",
+              "optional": false,
+              "start": 10,
+              "end": 11
+            },
+            "out": false,
+            "start": 10,
+            "end": 11
+          },
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "W",
+              "optional": false,
+              "start": 13,
+              "end": 14
+            },
+            "out": false,
+            "start": 13,
+            "end": 14
+          }
+        ],
+        "start": 6,
+        "end": 15
+      },
+      "start": 0,
+      "end": 20
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 21
+}

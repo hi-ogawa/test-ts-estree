@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "start": 87,
+              "end": 90
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 119,
+                "end": 121
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [
+                    {
+                      "type": "Decorator",
+                      "expression": {
+                        "type": "CallExpression",
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "raw": "true",
+                            "value": true,
+                            "start": 100,
+                            "end": 104
+                          }
+                        ],
+                        "callee": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "special",
+                          "optional": false,
+                          "start": 92,
+                          "end": 99
+                        },
+                        "optional": false,
+                        "start": 92,
+                        "end": 105
+                      },
+                      "start": 91,
+                      "end": 105
+                    }
+                  ],
+                  "name": "baz",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSNumberKeyword",
+                      "start": 111,
+                      "end": 117
+                    },
+                    "start": 109,
+                    "end": 117
+                  },
+                  "start": 106,
+                  "end": 117
+                }
+              ],
+              "start": 90,
+              "end": 121
+            },
+            "start": 87,
+            "end": 121
+          }
+        ],
+        "start": 83,
+        "end": 123
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 123
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 124
+}

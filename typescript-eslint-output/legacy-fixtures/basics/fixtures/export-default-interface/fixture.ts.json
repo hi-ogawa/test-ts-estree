@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "body": {
+          "type": "TSInterfaceBody",
+          "body": [
+            {
+              "type": "TSMethodSignature",
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "method1",
+                "optional": false,
+                "start": 104,
+                "end": 111
+              },
+              "kind": "method",
+              "optional": false,
+              "params": [],
+              "readonly": false,
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSVoidKeyword",
+                  "start": 115,
+                  "end": 119
+                },
+                "start": 113,
+                "end": 119
+              },
+              "static": false,
+              "start": 104,
+              "end": 120
+            }
+          ],
+          "start": 100,
+          "end": 122
+        },
+        "declare": false,
+        "extends": [],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "T",
+          "optional": false,
+          "start": 98,
+          "end": 99
+        },
+        "start": 88,
+        "end": 122
+      },
+      "exportKind": "value",
+      "start": 73,
+      "end": 122
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 123
+}

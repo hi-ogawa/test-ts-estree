@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "hidden",
+                  "optional": false,
+                  "start": 86,
+                  "end": 92
+                },
+                "start": 85,
+                "end": 92
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "z",
+              "optional": false,
+              "start": 99,
+              "end": 100
+            },
+            "kind": "get",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 116,
+                        "end": 120
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "_z",
+                        "optional": false,
+                        "start": 121,
+                        "end": 123
+                      },
+                      "start": 116,
+                      "end": 123
+                    },
+                    "start": 109,
+                    "end": 124
+                  }
+                ],
+                "start": 103,
+                "end": 128
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 100,
+              "end": 128
+            },
+            "start": 85,
+            "end": 128
+          }
+        ],
+        "start": 81,
+        "end": 130
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "P",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 130
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 131
+}

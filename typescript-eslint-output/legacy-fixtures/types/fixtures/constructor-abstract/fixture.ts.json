@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSConstructorType",
+                "abstract": true,
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSVoidKeyword",
+                    "start": 99,
+                    "end": 103
+                  },
+                  "start": 96,
+                  "end": 103
+                },
+                "start": 80,
+                "end": 103
+              },
+              "start": 78,
+              "end": 103
+            },
+            "start": 77,
+            "end": 103
+          },
+          "init": null,
+          "start": 77,
+          "end": 103
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 73,
+      "end": 104
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 105
+}

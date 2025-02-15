@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'mod'",
+        "value": "mod",
+        "start": 31,
+        "end": 36
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "start": 14,
+            "end": 15
+          },
+          "importKind": "type",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "start": 14,
+            "end": 15
+          },
+          "start": 9,
+          "end": 15
+        },
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "start": 22,
+            "end": 23
+          },
+          "importKind": "type",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "start": 22,
+            "end": 23
+          },
+          "start": 17,
+          "end": 23
+        }
+      ],
+      "start": 0,
+      "end": 37
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 38
+}

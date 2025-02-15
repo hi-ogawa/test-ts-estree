@@ -1,0 +1,30 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [],
+        "start": 15,
+        "end": 17
+      },
+      "declare": true,
+      "global": true,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "start": 8,
+        "end": 14
+      },
+      "kind": "global",
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 18
+}

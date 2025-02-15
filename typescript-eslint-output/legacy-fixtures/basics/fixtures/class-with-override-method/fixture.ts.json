@@ -1,0 +1,76 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "show",
+              "optional": false,
+              "start": 135,
+              "end": 139
+            },
+            "kind": "method",
+            "optional": false,
+            "override": true,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 142,
+                "end": 158
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 139,
+              "end": 158
+            },
+            "start": 126,
+            "end": 158
+          }
+        ],
+        "start": 122,
+        "end": 160
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SpecializedComponent",
+        "optional": false,
+        "start": 79,
+        "end": 99
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SomeComponent",
+        "optional": false,
+        "start": 108,
+        "end": 121
+      },
+      "start": 73,
+      "end": 160
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 161
+}

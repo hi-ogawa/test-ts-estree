@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "adminonly",
+                  "optional": false,
+                  "start": 89,
+                  "end": 98
+                },
+                "start": 88,
+                "end": 98
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "start": 112,
+              "end": 113
+            },
+            "kind": "set",
+            "optional": false,
+            "override": false,
+            "static": true,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 123,
+                          "end": 127
+                        },
+                        "optional": false,
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "_y",
+                          "optional": false,
+                          "start": 128,
+                          "end": 130
+                        },
+                        "start": 123,
+                        "end": 130
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "a",
+                        "optional": false,
+                        "start": 133,
+                        "end": 134
+                      },
+                      "start": 123,
+                      "end": 134
+                    },
+                    "start": 123,
+                    "end": 135
+                  }
+                ],
+                "start": 117,
+                "end": 139
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "start": 114,
+                  "end": 115
+                }
+              ],
+              "start": 113,
+              "end": 139
+            },
+            "start": 88,
+            "end": 139
+          }
+        ],
+        "start": 84,
+        "end": 141
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "User",
+        "optional": false,
+        "start": 79,
+        "end": 83
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 141
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 142
+}

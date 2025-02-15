@@ -1,0 +1,48 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "start": 79,
+            "end": 82
+          },
+          "init": {
+            "type": "TSTypeAssertion",
+            "expression": {
+              "type": "Literal",
+              "raw": "2",
+              "value": 2,
+              "start": 90,
+              "end": 91
+            },
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 86,
+              "end": 89
+            },
+            "start": 85,
+            "end": 91
+          },
+          "start": 79,
+          "end": 91
+        }
+      ],
+      "declare": false,
+      "kind": "const",
+      "start": 73,
+      "end": 92
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 93
+}

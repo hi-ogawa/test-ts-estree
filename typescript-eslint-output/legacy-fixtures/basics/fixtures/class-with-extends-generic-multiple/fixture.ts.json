@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 114,
+        "end": 116
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "start": 104,
+        "end": 107
+      },
+      "superTypeArguments": {
+        "type": "TSTypeParameterInstantiation",
+        "params": [
+          {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "C",
+              "optional": false,
+              "start": 108,
+              "end": 109
+            },
+            "start": 108,
+            "end": 109
+          },
+          {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "D",
+              "optional": false,
+              "start": 111,
+              "end": 112
+            },
+            "start": 111,
+            "end": 112
+          }
+        ],
+        "start": 107,
+        "end": 113
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSTypeReference",
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "B",
+                "optional": false,
+                "start": 93,
+                "end": 94
+              },
+              "start": 93,
+              "end": 94
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "start": 83,
+              "end": 84
+            },
+            "out": false,
+            "start": 83,
+            "end": 94
+          }
+        ],
+        "start": 82,
+        "end": 95
+      },
+      "start": 73,
+      "end": 116
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 117
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": true,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "TSAbstractPropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "start": 105,
+              "end": 108
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": null,
+            "start": 96,
+            "end": 109
+          },
+          {
+            "type": "TSAbstractPropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "baz",
+              "optional": false,
+              "start": 121,
+              "end": 124
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 126,
+                "end": 132
+              },
+              "start": 124,
+              "end": 132
+            },
+            "value": null,
+            "start": 112,
+            "end": 133
+          }
+        ],
+        "start": 92,
+        "end": 135
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 88,
+        "end": 91
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 135
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 136
+}

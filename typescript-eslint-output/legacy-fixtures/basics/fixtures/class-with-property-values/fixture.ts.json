@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "start": 87,
+              "end": 88
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "2",
+              "value": 2,
+              "start": 91,
+              "end": 92
+            },
+            "start": 87,
+            "end": 93
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "b",
+              "optional": false,
+              "start": 96,
+              "end": 97
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "ObjectExpression",
+              "properties": [],
+              "start": 100,
+              "end": 102
+            },
+            "start": 96,
+            "end": 103
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "c",
+              "optional": false,
+              "start": 106,
+              "end": 107
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "ArrayExpression",
+              "elements": [],
+              "start": 110,
+              "end": 112
+            },
+            "start": 106,
+            "end": 113
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "d",
+              "optional": false,
+              "start": 116,
+              "end": 117
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "''",
+              "value": "",
+              "start": 120,
+              "end": 122
+            },
+            "start": 116,
+            "end": 123
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "e",
+              "optional": false,
+              "start": 126,
+              "end": 127
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "NewExpression",
+              "arguments": [
+                {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [],
+                      "start": 141,
+                      "end": 143
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [],
+                      "start": 145,
+                      "end": 147
+                    },
+                    {
+                      "type": "Literal",
+                      "raw": "2",
+                      "value": 2,
+                      "start": 149,
+                      "end": 150
+                    }
+                  ],
+                  "start": 140,
+                  "end": 151
+                }
+              ],
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "Array",
+                "optional": false,
+                "start": 134,
+                "end": 139
+              },
+              "start": 130,
+              "end": 152
+            },
+            "start": 126,
+            "end": 153
+          }
+        ],
+        "start": 83,
+        "end": 155
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 155
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 156
+}

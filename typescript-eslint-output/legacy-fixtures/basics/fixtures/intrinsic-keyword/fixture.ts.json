@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Uppercase",
+        "optional": false,
+        "start": 78,
+        "end": 87
+      },
+      "typeAnnotation": {
+        "type": "TSIntrinsicKeyword",
+        "start": 108,
+        "end": 117
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 98,
+              "end": 104
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "S",
+              "optional": false,
+              "start": 88,
+              "end": 89
+            },
+            "out": false,
+            "start": 88,
+            "end": 104
+          }
+        ],
+        "start": 87,
+        "end": 105
+      },
+      "start": 73,
+      "end": 118
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Lowercase",
+        "optional": false,
+        "start": 124,
+        "end": 133
+      },
+      "typeAnnotation": {
+        "type": "TSIntrinsicKeyword",
+        "start": 154,
+        "end": 163
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 144,
+              "end": 150
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "S",
+              "optional": false,
+              "start": 134,
+              "end": 135
+            },
+            "out": false,
+            "start": 134,
+            "end": 150
+          }
+        ],
+        "start": 133,
+        "end": 151
+      },
+      "start": 119,
+      "end": 164
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Capitalize",
+        "optional": false,
+        "start": 170,
+        "end": 180
+      },
+      "typeAnnotation": {
+        "type": "TSIntrinsicKeyword",
+        "start": 201,
+        "end": 210
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 191,
+              "end": 197
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "S",
+              "optional": false,
+              "start": 181,
+              "end": 182
+            },
+            "out": false,
+            "start": 181,
+            "end": 197
+          }
+        ],
+        "start": 180,
+        "end": 198
+      },
+      "start": 165,
+      "end": 211
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Uncapitalize",
+        "optional": false,
+        "start": 217,
+        "end": 229
+      },
+      "typeAnnotation": {
+        "type": "TSIntrinsicKeyword",
+        "start": 250,
+        "end": 259
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 240,
+              "end": 246
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "S",
+              "optional": false,
+              "start": 230,
+              "end": 231
+            },
+            "out": false,
+            "start": 230,
+            "end": 246
+          }
+        ],
+        "start": 229,
+        "end": 247
+      },
+      "start": 212,
+      "end": 260
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 261
+}

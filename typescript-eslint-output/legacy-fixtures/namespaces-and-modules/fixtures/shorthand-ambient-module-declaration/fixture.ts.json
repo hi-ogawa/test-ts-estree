@@ -1,0 +1,23 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "kind": "module",
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Literal",
+        "raw": "'hot-new-module'",
+        "value": "hot-new-module",
+        "start": 88,
+        "end": 104
+      },
+      "start": 73,
+      "end": 105
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 106
+}

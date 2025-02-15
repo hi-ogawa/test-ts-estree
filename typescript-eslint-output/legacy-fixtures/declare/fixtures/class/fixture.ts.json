@@ -1,0 +1,32 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 91,
+        "end": 93
+      },
+      "declare": true,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 87,
+        "end": 90
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 93
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 94
+}

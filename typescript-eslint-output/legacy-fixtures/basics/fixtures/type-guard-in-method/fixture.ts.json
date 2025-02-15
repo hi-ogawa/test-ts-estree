@@ -1,0 +1,208 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "isBar",
+              "optional": false,
+              "start": 87,
+              "end": 92
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "operator": "instanceof",
+                      "left": {
+                        "type": "ThisExpression",
+                        "start": 124,
+                        "end": 128
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "Foo",
+                        "optional": false,
+                        "start": 140,
+                        "end": 143
+                      },
+                      "start": 124,
+                      "end": 143
+                    },
+                    "start": 117,
+                    "end": 144
+                  }
+                ],
+                "start": 111,
+                "end": 148
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSTypePredicate",
+                  "asserts": false,
+                  "parameterName": {
+                    "type": "TSThisType",
+                    "start": 96,
+                    "end": 100
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 104,
+                      "end": 110
+                    },
+                    "start": 104,
+                    "end": 110
+                  },
+                  "start": 96,
+                  "end": 110
+                },
+                "start": 94,
+                "end": 110
+              },
+              "start": 92,
+              "end": 148
+            },
+            "start": 87,
+            "end": 148
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "isBaz",
+              "optional": false,
+              "start": 151,
+              "end": 156
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "ArrowFunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "operator": "instanceof",
+                      "left": {
+                        "type": "ThisExpression",
+                        "start": 194,
+                        "end": 198
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "Foo",
+                        "optional": false,
+                        "start": 210,
+                        "end": 213
+                      },
+                      "start": 194,
+                      "end": 213
+                    },
+                    "start": 187,
+                    "end": 214
+                  }
+                ],
+                "start": 181,
+                "end": 218
+              },
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSTypePredicate",
+                  "asserts": false,
+                  "parameterName": {
+                    "type": "TSThisType",
+                    "start": 163,
+                    "end": 167
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 171,
+                      "end": 177
+                    },
+                    "start": 171,
+                    "end": 177
+                  },
+                  "start": 163,
+                  "end": 177
+                },
+                "start": 161,
+                "end": 177
+              },
+              "start": 159,
+              "end": 218
+            },
+            "start": 151,
+            "end": 219
+          }
+        ],
+        "start": 83,
+        "end": 221
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 221
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 222
+}

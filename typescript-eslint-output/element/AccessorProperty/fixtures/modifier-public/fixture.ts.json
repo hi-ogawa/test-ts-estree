@@ -1,0 +1,62 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "AccessorProperty",
+            "accessibility": "public",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "start": 30,
+              "end": 33
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "2",
+              "value": 2,
+              "start": 36,
+              "end": 37
+            },
+            "start": 14,
+            "end": 38
+          }
+        ],
+        "start": 10,
+        "end": 40
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 6,
+        "end": 9
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 0,
+      "end": 40
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 41
+}

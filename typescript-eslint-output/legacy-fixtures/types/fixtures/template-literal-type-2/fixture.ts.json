@@ -1,0 +1,63 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "T",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSTemplateLiteralType",
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "tail": false,
+            "value": {
+              "cooked": "foo",
+              "raw": "foo"
+            },
+            "start": 82,
+            "end": 88
+          },
+          {
+            "type": "TemplateElement",
+            "tail": true,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "start": 93,
+            "end": 95
+          }
+        ],
+        "types": [
+          {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'bar'",
+              "value": "bar",
+              "start": 88,
+              "end": 93
+            },
+            "start": 88,
+            "end": 93
+          }
+        ],
+        "start": 82,
+        "end": 95
+      },
+      "start": 73,
+      "end": 96
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 97
+}

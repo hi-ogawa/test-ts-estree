@@ -1,0 +1,41 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "body": [],
+          "start": 17,
+          "end": 19
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "start": 13,
+          "end": 16
+        },
+        "implements": [],
+        "superClass": null,
+        "start": 7,
+        "end": 19
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 20
+}

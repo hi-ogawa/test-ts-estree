@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "kind": "module",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [],
+        "start": 11,
+        "end": 13
+      },
+      "declare": false,
+      "global": false,
+      "id": {
+        "type": "Literal",
+        "raw": "'a'",
+        "value": "a",
+        "start": 7,
+        "end": 10
+      },
+      "start": 0,
+      "end": 13
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 14
+}

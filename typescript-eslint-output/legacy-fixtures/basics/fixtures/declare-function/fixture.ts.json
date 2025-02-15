@@ -1,0 +1,55 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "async": false,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 90,
+        "end": 93
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "bar",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 99,
+              "end": 105
+            },
+            "start": 97,
+            "end": 105
+          },
+          "start": 94,
+          "end": 105
+        }
+      ],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "typeAnnotation": {
+          "type": "TSStringKeyword",
+          "start": 108,
+          "end": 114
+        },
+        "start": 106,
+        "end": 114
+      },
+      "start": 73,
+      "end": 115
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 116
+}

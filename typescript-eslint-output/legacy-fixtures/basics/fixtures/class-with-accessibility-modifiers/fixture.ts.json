@@ -1,0 +1,258 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "accessibility": "private",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "start": 95,
+              "end": 98
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 100,
+                "end": 106
+              },
+              "start": 98,
+              "end": 106
+            },
+            "value": null,
+            "start": 87,
+            "end": 107
+          },
+          {
+            "type": "PropertyDefinition",
+            "accessibility": "public",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "baz",
+              "optional": false,
+              "start": 124,
+              "end": 127
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": true,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 129,
+                "end": 135
+              },
+              "start": 127,
+              "end": 135
+            },
+            "value": null,
+            "start": 110,
+            "end": 136
+          },
+          {
+            "type": "MethodDefinition",
+            "accessibility": "public",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "getBar",
+              "optional": false,
+              "start": 146,
+              "end": 152
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 168,
+                        "end": 172
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "bar",
+                        "optional": false,
+                        "start": 173,
+                        "end": 176
+                      },
+                      "start": 168,
+                      "end": 176
+                    },
+                    "start": 161,
+                    "end": 177
+                  }
+                ],
+                "start": 155,
+                "end": 181
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 152,
+              "end": 181
+            },
+            "start": 139,
+            "end": 181
+          },
+          {
+            "type": "MethodDefinition",
+            "accessibility": "protected",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "setBar",
+              "optional": false,
+              "start": 194,
+              "end": 200
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 220,
+                          "end": 224
+                        },
+                        "optional": false,
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "bar",
+                          "optional": false,
+                          "start": 225,
+                          "end": 228
+                        },
+                        "start": 220,
+                        "end": 228
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "bar",
+                        "optional": false,
+                        "start": 231,
+                        "end": 234
+                      },
+                      "start": 220,
+                      "end": 234
+                    },
+                    "start": 220,
+                    "end": 235
+                  }
+                ],
+                "start": 214,
+                "end": 239
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "bar",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 206,
+                      "end": 212
+                    },
+                    "start": 204,
+                    "end": 212
+                  },
+                  "start": 201,
+                  "end": 212
+                }
+              ],
+              "start": 200,
+              "end": 239
+            },
+            "start": 184,
+            "end": 239
+          }
+        ],
+        "start": 83,
+        "end": 241
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 241
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 242
+}

@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "kind": "module",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "TSDeclareFunction",
+            "async": true,
+            "declare": false,
+            "expression": false,
+            "generator": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "start": 38,
+              "end": 41
+            },
+            "params": [],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 45,
+                "end": 48
+              },
+              "start": 43,
+              "end": 48
+            },
+            "start": 23,
+            "end": 49
+          }
+        ],
+        "start": 19,
+        "end": 51
+      },
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Literal",
+        "raw": "'x'",
+        "value": "x",
+        "start": 15,
+        "end": 18
+      },
+      "start": 0,
+      "end": 51
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 52
+}

@@ -1,0 +1,74 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSConstructorType",
+                      "abstract": false,
+                      "params": [],
+                      "returnType": {
+                        "type": "TSTypeAnnotation",
+                        "typeAnnotation": {
+                          "type": "TSStringKeyword",
+                          "start": 96,
+                          "end": 102
+                        },
+                        "start": 93,
+                        "end": 102
+                      },
+                      "start": 86,
+                      "end": 102
+                    }
+                  ],
+                  "start": 85,
+                  "end": 103
+                },
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "Array",
+                  "optional": false,
+                  "start": 80,
+                  "end": 85
+                },
+                "start": 80,
+                "end": 103
+              },
+              "start": 78,
+              "end": 103
+            },
+            "start": 77,
+            "end": 103
+          },
+          "init": null,
+          "start": 77,
+          "end": 103
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 104
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 105
+}

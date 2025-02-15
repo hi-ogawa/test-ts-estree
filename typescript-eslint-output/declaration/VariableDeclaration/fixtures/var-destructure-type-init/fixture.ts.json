@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "ObjectPattern",
+            "decorators": [],
+            "optional": false,
+            "properties": [
+              {
+                "type": "Property",
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "start": 6,
+                  "end": 9
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "start": 6,
+                  "end": 9
+                },
+                "start": 6,
+                "end": 9
+              }
+            ],
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 13,
+                "end": 16
+              },
+              "start": 11,
+              "end": 16
+            },
+            "start": 4,
+            "end": 16
+          },
+          "init": {
+            "type": "Literal",
+            "raw": "1",
+            "value": 1,
+            "start": 19,
+            "end": 20
+          },
+          "start": 4,
+          "end": 20
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 0,
+      "end": 21
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 22
+}

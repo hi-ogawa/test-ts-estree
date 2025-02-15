@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 78,
+        "end": 81
+      },
+      "typeAnnotation": {
+        "type": "TSTupleType",
+        "elementTypes": [
+          {
+            "type": "TSNamedTupleMember",
+            "elementType": {
+              "type": "TSStringKeyword",
+              "start": 88,
+              "end": 94
+            },
+            "label": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "start": 85,
+              "end": 86
+            },
+            "optional": false,
+            "start": 85,
+            "end": 94
+          },
+          {
+            "type": "TSNamedTupleMember",
+            "elementType": {
+              "type": "TSStringKeyword",
+              "start": 100,
+              "end": 106
+            },
+            "label": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "b",
+              "optional": false,
+              "start": 96,
+              "end": 97
+            },
+            "optional": true,
+            "start": 96,
+            "end": 106
+          }
+        ],
+        "start": 84,
+        "end": 107
+      },
+      "start": 73,
+      "end": 108
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 109
+}

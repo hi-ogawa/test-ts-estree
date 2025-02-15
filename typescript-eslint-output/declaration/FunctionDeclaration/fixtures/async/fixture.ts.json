@@ -1,0 +1,32 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": true,
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 21,
+        "end": 23
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 15,
+        "end": 18
+      },
+      "params": [],
+      "start": 0,
+      "end": 23
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 24
+}

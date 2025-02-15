@@ -1,0 +1,43 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "TSTypeAliasDeclaration",
+        "declare": false,
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "A",
+          "optional": false,
+          "start": 12,
+          "end": 13
+        },
+        "typeAnnotation": {
+          "type": "TSLiteralType",
+          "literal": {
+            "type": "Literal",
+            "raw": "1",
+            "value": 1,
+            "start": 16,
+            "end": 17
+          },
+          "start": 16,
+          "end": 17
+        },
+        "start": 7,
+        "end": 18
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "start": 0,
+      "end": 18
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 19
+}

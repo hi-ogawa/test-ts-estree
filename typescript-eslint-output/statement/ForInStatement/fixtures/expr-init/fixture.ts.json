@@ -1,0 +1,211 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ForInStatement",
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 150,
+        "end": 153
+      },
+      "left": {
+        "type": "ObjectPattern",
+        "decorators": [],
+        "optional": false,
+        "properties": [
+          {
+            "type": "Property",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "start": 136,
+              "end": 137
+            },
+            "kind": "init",
+            "method": false,
+            "optional": false,
+            "shorthand": true,
+            "value": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "start": 136,
+              "end": 137
+            },
+            "start": 136,
+            "end": 137
+          },
+          {
+            "type": "Property",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "start": 139,
+              "end": 140
+            },
+            "kind": "init",
+            "method": false,
+            "optional": false,
+            "shorthand": true,
+            "value": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "start": 139,
+              "end": 140
+            },
+            "start": 139,
+            "end": 140
+          }
+        ],
+        "start": 134,
+        "end": 142
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [],
+        "start": 146,
+        "end": 148
+      },
+      "start": 129,
+      "end": 153
+    },
+    {
+      "type": "ForInStatement",
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 173,
+        "end": 176
+      },
+      "left": {
+        "type": "ArrayPattern",
+        "decorators": [],
+        "elements": [
+          {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "start": 160,
+            "end": 161
+          },
+          {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "start": 163,
+            "end": 164
+          }
+        ],
+        "optional": false,
+        "start": 159,
+        "end": 165
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [],
+        "start": 169,
+        "end": 171
+      },
+      "start": 154,
+      "end": 176
+    },
+    {
+      "type": "ForInStatement",
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 193,
+        "end": 196
+      },
+      "left": {
+        "type": "MemberExpression",
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "start": 182,
+          "end": 183
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "y",
+          "optional": false,
+          "start": 184,
+          "end": 185
+        },
+        "start": 182,
+        "end": 185
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [],
+        "start": 189,
+        "end": 191
+      },
+      "start": 177,
+      "end": 196
+    },
+    {
+      "type": "ForInStatement",
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 216,
+        "end": 219
+      },
+      "left": {
+        "type": "TSAsExpression",
+        "expression": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "start": 202,
+          "end": 203
+        },
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "typeName": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "start": 207,
+            "end": 208
+          },
+          "start": 207,
+          "end": 208
+        },
+        "start": 202,
+        "end": 208
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [],
+        "start": 212,
+        "end": 214
+      },
+      "start": 197,
+      "end": 219
+    }
+  ],
+  "sourceType": "module",
+  "start": 129,
+  "end": 220
+}

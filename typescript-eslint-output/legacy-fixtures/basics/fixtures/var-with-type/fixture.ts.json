@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "name",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 83,
+                "end": 89
+              },
+              "start": 81,
+              "end": 89
+            },
+            "start": 77,
+            "end": 89
+          },
+          "init": {
+            "type": "Literal",
+            "raw": "'Nicholas'",
+            "value": "Nicholas",
+            "start": 92,
+            "end": 102
+          },
+          "start": 77,
+          "end": 102
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 73,
+      "end": 103
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 113,
+                "end": 119
+              },
+              "start": 111,
+              "end": 119
+            },
+            "start": 108,
+            "end": 119
+          },
+          "init": {
+            "type": "Literal",
+            "raw": "'Bar'",
+            "value": "Bar",
+            "start": 122,
+            "end": 127
+          },
+          "start": 108,
+          "end": 127
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 104,
+      "end": 128
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 129
+}

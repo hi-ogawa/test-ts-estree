@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSEnumDeclaration",
+      "body": {
+        "type": "TSEnumBody",
+        "members": [],
+        "start": 9,
+        "end": 11
+      },
+      "const": false,
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 5,
+        "end": 8
+      },
+      "start": 0,
+      "end": 11
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 12
+}

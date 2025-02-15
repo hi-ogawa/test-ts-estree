@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "AccessorProperty",
+            "computed": true,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "BinaryExpression",
+              "operator": "+",
+              "left": {
+                "type": "Literal",
+                "raw": "1",
+                "value": 1,
+                "start": 24,
+                "end": 25
+              },
+              "right": {
+                "type": "Literal",
+                "raw": "1",
+                "value": 1,
+                "start": 28,
+                "end": 29
+              },
+              "start": 24,
+              "end": 29
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "2",
+              "value": 2,
+              "start": 33,
+              "end": 34
+            },
+            "start": 14,
+            "end": 35
+          }
+        ],
+        "start": 10,
+        "end": 37
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 6,
+        "end": 9
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 0,
+      "end": 37
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 38
+}

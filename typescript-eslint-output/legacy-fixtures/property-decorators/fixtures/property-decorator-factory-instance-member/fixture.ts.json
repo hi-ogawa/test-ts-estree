@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "CallExpression",
+                  "arguments": [],
+                  "callee": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "Input",
+                    "optional": false,
+                    "start": 98,
+                    "end": 103
+                  },
+                  "optional": false,
+                  "start": 98,
+                  "end": 105
+                },
+                "start": 97,
+                "end": 105
+              }
+            ],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "data",
+              "optional": false,
+              "start": 106,
+              "end": 110
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": null,
+            "start": 97,
+            "end": 111
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "CallExpression",
+                  "arguments": [],
+                  "callee": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "Output",
+                    "optional": false,
+                    "start": 115,
+                    "end": 121
+                  },
+                  "optional": false,
+                  "start": 115,
+                  "end": 123
+                },
+                "start": 114,
+                "end": 123
+              }
+            ],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "click",
+              "optional": false,
+              "start": 126,
+              "end": 131
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "NewExpression",
+              "arguments": [],
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "EventEmitter",
+                "optional": false,
+                "start": 138,
+                "end": 150
+              },
+              "start": 134,
+              "end": 152
+            },
+            "start": 114,
+            "end": 153
+          }
+        ],
+        "start": 93,
+        "end": 155
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SomeComponent",
+        "optional": false,
+        "start": 79,
+        "end": 92
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 155
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 156
+}

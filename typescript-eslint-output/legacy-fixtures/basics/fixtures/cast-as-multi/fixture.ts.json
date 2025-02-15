@@ -1,0 +1,49 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "TSAsExpression",
+        "expression": {
+          "type": "TSAsExpression",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "start": 73,
+            "end": 74
+          },
+          "typeAnnotation": {
+            "type": "TSAnyKeyword",
+            "start": 78,
+            "end": 81
+          },
+          "start": 73,
+          "end": 81
+        },
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "typeName": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "start": 85,
+            "end": 86
+          },
+          "start": 85,
+          "end": 86
+        },
+        "start": 73,
+        "end": 86
+      },
+      "start": 73,
+      "end": 87
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 88
+}

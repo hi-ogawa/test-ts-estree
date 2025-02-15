@@ -1,0 +1,42 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSUnknownKeyword",
+                "start": 82,
+                "end": 89
+              },
+              "start": 80,
+              "end": 89
+            },
+            "start": 77,
+            "end": 89
+          },
+          "init": null,
+          "start": 77,
+          "end": 89
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 90
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 91
+}

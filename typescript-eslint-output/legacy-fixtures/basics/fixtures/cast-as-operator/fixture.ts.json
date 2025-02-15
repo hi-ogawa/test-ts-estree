@@ -1,0 +1,44 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "BinaryExpression",
+        "operator": "===",
+        "left": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "start": 73,
+          "end": 74
+        },
+        "right": {
+          "type": "TSAsExpression",
+          "expression": {
+            "type": "Literal",
+            "raw": "1",
+            "value": 1,
+            "start": 80,
+            "end": 81
+          },
+          "typeAnnotation": {
+            "type": "TSNumberKeyword",
+            "start": 85,
+            "end": 91
+          },
+          "start": 80,
+          "end": 91
+        },
+        "start": 73,
+        "end": 92
+      },
+      "start": 73,
+      "end": 93
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 94
+}

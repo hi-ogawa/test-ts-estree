@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 78,
+        "end": 81
+      },
+      "typeAnnotation": {
+        "type": "TSTypeLiteral",
+        "members": [
+          {
+            "type": "TSMethodSignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "h",
+              "optional": false,
+              "start": 88,
+              "end": 89
+            },
+            "kind": "method",
+            "optional": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "bar",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 95,
+                    "end": 101
+                  },
+                  "start": 93,
+                  "end": 101
+                },
+                "start": 90,
+                "end": 101
+              }
+            ],
+            "readonly": false,
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSVoidKeyword",
+                "start": 104,
+                "end": 108
+              },
+              "start": 102,
+              "end": 108
+            },
+            "static": false,
+            "start": 88,
+            "end": 109
+          },
+          {
+            "type": "TSMethodSignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "g",
+              "optional": false,
+              "start": 112,
+              "end": 113
+            },
+            "kind": "method",
+            "optional": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "bar",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "typeName": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "T",
+                      "optional": false,
+                      "start": 122,
+                      "end": 123
+                    },
+                    "start": 122,
+                    "end": 123
+                  },
+                  "start": 120,
+                  "end": 123
+                },
+                "start": 117,
+                "end": 123
+              }
+            ],
+            "readonly": false,
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "T",
+                  "optional": false,
+                  "start": 126,
+                  "end": 127
+                },
+                "start": 126,
+                "end": 127
+              },
+              "start": 124,
+              "end": 127
+            },
+            "static": false,
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "const": false,
+                  "in": false,
+                  "name": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "start": 114,
+                    "end": 115
+                  },
+                  "out": false,
+                  "start": 114,
+                  "end": 115
+                }
+              ],
+              "start": 113,
+              "end": 116
+            },
+            "start": 112,
+            "end": 128
+          }
+        ],
+        "start": 84,
+        "end": 130
+      },
+      "start": 73,
+      "end": 131
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 132
+}

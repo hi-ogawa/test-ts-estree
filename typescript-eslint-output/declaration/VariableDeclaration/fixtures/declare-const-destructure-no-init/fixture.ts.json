@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "ObjectPattern",
+            "decorators": [],
+            "optional": false,
+            "properties": [
+              {
+                "type": "Property",
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "start": 16,
+                  "end": 19
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "start": 16,
+                  "end": 19
+                },
+                "start": 16,
+                "end": 19
+              }
+            ],
+            "start": 14,
+            "end": 21
+          },
+          "init": null,
+          "start": 14,
+          "end": 21
+        }
+      ],
+      "declare": true,
+      "kind": "const",
+      "start": 0,
+      "end": 22
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 23
+}

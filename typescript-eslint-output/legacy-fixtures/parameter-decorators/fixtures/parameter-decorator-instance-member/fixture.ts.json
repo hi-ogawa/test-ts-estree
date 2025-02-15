@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "greet",
+              "optional": false,
+              "start": 91,
+              "end": 96
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "operator": "+",
+                      "left": {
+                        "type": "BinaryExpression",
+                        "operator": "+",
+                        "left": {
+                          "type": "Literal",
+                          "raw": "'Hello '",
+                          "value": "Hello ",
+                          "start": 134,
+                          "end": 142
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "name",
+                          "optional": false,
+                          "start": 145,
+                          "end": 149
+                        },
+                        "start": 134,
+                        "end": 149
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "raw": "'!'",
+                        "value": "!",
+                        "start": 152,
+                        "end": 155
+                      },
+                      "start": 134,
+                      "end": 155
+                    },
+                    "start": 127,
+                    "end": 156
+                  }
+                ],
+                "start": 121,
+                "end": 160
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [
+                    {
+                      "type": "Decorator",
+                      "expression": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "required",
+                        "optional": false,
+                        "start": 98,
+                        "end": 106
+                      },
+                      "start": 97,
+                      "end": 106
+                    }
+                  ],
+                  "name": "name",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 113,
+                      "end": 119
+                    },
+                    "start": 111,
+                    "end": 119
+                  },
+                  "start": 107,
+                  "end": 119
+                }
+              ],
+              "start": 96,
+              "end": 160
+            },
+            "start": 91,
+            "end": 160
+          }
+        ],
+        "start": 87,
+        "end": 162
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Greeter",
+        "optional": false,
+        "start": 79,
+        "end": 86
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 162
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 163
+}

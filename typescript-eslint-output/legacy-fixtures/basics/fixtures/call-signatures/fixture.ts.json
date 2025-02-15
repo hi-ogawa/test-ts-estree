@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 78,
+        "end": 81
+      },
+      "typeAnnotation": {
+        "type": "TSTypeLiteral",
+        "members": [
+          {
+            "type": "TSCallSignatureDeclaration",
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 92,
+                    "end": 98
+                  },
+                  "start": 90,
+                  "end": 98
+                },
+                "start": 89,
+                "end": 98
+              }
+            ],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 101,
+                "end": 107
+              },
+              "start": 99,
+              "end": 107
+            },
+            "start": 88,
+            "end": 108
+          },
+          {
+            "type": "TSConstructSignatureDeclaration",
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 119,
+                    "end": 125
+                  },
+                  "start": 117,
+                  "end": 125
+                },
+                "start": 116,
+                "end": 125
+              }
+            ],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 128,
+                "end": 134
+              },
+              "start": 126,
+              "end": 134
+            },
+            "start": 111,
+            "end": 135
+          }
+        ],
+        "start": 84,
+        "end": 137
+      },
+      "start": 73,
+      "end": 138
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 139
+}

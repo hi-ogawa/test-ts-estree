@@ -1,0 +1,41 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSTypeOperator",
+        "operator": "keyof",
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "typeName": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "start": 88,
+            "end": 91
+          },
+          "start": 88,
+          "end": 91
+        },
+        "start": 82,
+        "end": 91
+      },
+      "start": 73,
+      "end": 92
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 93
+}

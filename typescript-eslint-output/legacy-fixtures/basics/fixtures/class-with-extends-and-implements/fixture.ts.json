@@ -1,0 +1,53 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 151,
+        "end": 153
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "ClassWithParentAndInterface",
+        "optional": false,
+        "start": 79,
+        "end": 106
+      },
+      "implements": [
+        {
+          "type": "TSClassImplements",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "MyInterface",
+            "optional": false,
+            "start": 139,
+            "end": 150
+          },
+          "start": 139,
+          "end": 150
+        }
+      ],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "MyOtherClass",
+        "optional": false,
+        "start": 115,
+        "end": 127
+      },
+      "start": 73,
+      "end": 153
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 154
+}

@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "start": 6,
+            "end": 7
+          },
+          "init": {
+            "type": "Literal",
+            "raw": "1",
+            "value": 1,
+            "start": 10,
+            "end": 11
+          },
+          "start": 6,
+          "end": 11
+        },
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "start": 15,
+            "end": 16
+          },
+          "init": {
+            "type": "Literal",
+            "raw": "2",
+            "value": 2,
+            "start": 19,
+            "end": 20
+          },
+          "start": 15,
+          "end": 20
+        }
+      ],
+      "declare": false,
+      "kind": "using",
+      "start": 0,
+      "end": 21
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 22
+}

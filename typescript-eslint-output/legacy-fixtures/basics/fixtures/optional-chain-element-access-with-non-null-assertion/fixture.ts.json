@@ -1,0 +1,364 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "TSNonNullExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 113,
+                      "end": 116
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Literal",
+                      "raw": "'two'",
+                      "value": "two",
+                      "start": 119,
+                      "end": 124
+                    },
+                    "start": 113,
+                    "end": 125
+                  },
+                  "start": 113,
+                  "end": 126
+                },
+                "optional": false,
+                "property": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "three",
+                  "optional": false,
+                  "start": 127,
+                  "end": 132
+                },
+                "start": 113,
+                "end": 132
+              },
+              "start": 113,
+              "end": 132
+            },
+            "start": 113,
+            "end": 133
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "TSNonNullExpression",
+                "expression": {
+                  "type": "ChainExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 137,
+                      "end": 140
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Literal",
+                      "raw": "'two'",
+                      "value": "two",
+                      "start": 143,
+                      "end": 148
+                    },
+                    "start": 137,
+                    "end": 149
+                  },
+                  "start": 137,
+                  "end": 149
+                },
+                "start": 136,
+                "end": 151
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "three",
+                "optional": false,
+                "start": 152,
+                "end": 157
+              },
+              "start": 136,
+              "end": 157
+            },
+            "start": 136,
+            "end": 158
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "TSNonNullExpression",
+                "expression": {
+                  "type": "ChainExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 162,
+                      "end": 165
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Literal",
+                      "raw": "'two'",
+                      "value": "two",
+                      "start": 168,
+                      "end": 173
+                    },
+                    "start": 162,
+                    "end": 174
+                  },
+                  "start": 162,
+                  "end": 174
+                },
+                "start": 161,
+                "end": 176
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "three",
+                "optional": false,
+                "start": 177,
+                "end": 182
+              },
+              "start": 161,
+              "end": 182
+            },
+            "start": 161,
+            "end": 183
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "MemberExpression",
+                "computed": true,
+                "object": {
+                  "type": "TSNonNullExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 186,
+                      "end": 189
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 191,
+                      "end": 194
+                    },
+                    "start": 186,
+                    "end": 194
+                  },
+                  "start": 186,
+                  "end": 195
+                },
+                "optional": false,
+                "property": {
+                  "type": "Literal",
+                  "raw": "'three'",
+                  "value": "three",
+                  "start": 196,
+                  "end": 203
+                },
+                "start": 186,
+                "end": 204
+              },
+              "start": 186,
+              "end": 204
+            },
+            "start": 186,
+            "end": 205
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": true,
+              "object": {
+                "type": "TSNonNullExpression",
+                "expression": {
+                  "type": "ChainExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 209,
+                      "end": 212
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 214,
+                      "end": 217
+                    },
+                    "start": 209,
+                    "end": 217
+                  },
+                  "start": 209,
+                  "end": 217
+                },
+                "start": 208,
+                "end": 219
+              },
+              "optional": false,
+              "property": {
+                "type": "Literal",
+                "raw": "'three'",
+                "value": "three",
+                "start": 220,
+                "end": 227
+              },
+              "start": 208,
+              "end": 228
+            },
+            "start": 208,
+            "end": 229
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": true,
+              "object": {
+                "type": "TSNonNullExpression",
+                "expression": {
+                  "type": "ChainExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 233,
+                      "end": 236
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 238,
+                      "end": 241
+                    },
+                    "start": 233,
+                    "end": 241
+                  },
+                  "start": 233,
+                  "end": 241
+                },
+                "start": 232,
+                "end": 243
+              },
+              "optional": false,
+              "property": {
+                "type": "Literal",
+                "raw": "'three'",
+                "value": "three",
+                "start": 244,
+                "end": 251
+              },
+              "start": 232,
+              "end": 252
+            },
+            "start": 232,
+            "end": 253
+          }
+        ],
+        "start": 109,
+        "end": 255
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "processOptional",
+        "optional": false,
+        "start": 82,
+        "end": 97
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "one",
+          "optional": true,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 104,
+              "end": 107
+            },
+            "start": 102,
+            "end": 107
+          },
+          "start": 98,
+          "end": 107
+        }
+      ],
+      "start": 73,
+      "end": 255
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 256
+}

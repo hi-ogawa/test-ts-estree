@@ -1,0 +1,385 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "one",
+                  "optional": false,
+                  "start": 119,
+                  "end": 122
+                },
+                "optional": true,
+                "property": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "two",
+                  "optional": false,
+                  "start": 124,
+                  "end": 127
+                },
+                "start": 119,
+                "end": 127
+              },
+              "start": 119,
+              "end": 127
+            },
+            "start": 119,
+            "end": 128
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "ChainExpression",
+                "expression": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "one",
+                    "optional": false,
+                    "start": 132,
+                    "end": 135
+                  },
+                  "optional": true,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "two",
+                    "optional": false,
+                    "start": 137,
+                    "end": 140
+                  },
+                  "start": 132,
+                  "end": 140
+                },
+                "start": 132,
+                "end": 140
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "three",
+                "optional": false,
+                "start": 142,
+                "end": 147
+              },
+              "start": 131,
+              "end": 147
+            },
+            "start": 131,
+            "end": 148
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "one",
+                    "optional": false,
+                    "start": 151,
+                    "end": 154
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "two",
+                    "optional": false,
+                    "start": 155,
+                    "end": 158
+                  },
+                  "start": 151,
+                  "end": 158
+                },
+                "optional": true,
+                "property": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "three",
+                  "optional": false,
+                  "start": 160,
+                  "end": 165
+                },
+                "start": 151,
+                "end": 165
+              },
+              "start": 151,
+              "end": 165
+            },
+            "start": 151,
+            "end": 166
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "ChainExpression",
+                "expression": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 170,
+                      "end": 173
+                    },
+                    "optional": false,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 174,
+                      "end": 177
+                    },
+                    "start": 170,
+                    "end": 177
+                  },
+                  "optional": true,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "three",
+                    "optional": false,
+                    "start": 179,
+                    "end": 184
+                  },
+                  "start": 170,
+                  "end": 184
+                },
+                "start": 170,
+                "end": 184
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "four",
+                "optional": false,
+                "start": 186,
+                "end": 190
+              },
+              "start": 169,
+              "end": 190
+            },
+            "start": 169,
+            "end": 191
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 194,
+                      "end": 197
+                    },
+                    "optional": false,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 198,
+                      "end": 201
+                    },
+                    "start": 194,
+                    "end": 201
+                  },
+                  "optional": true,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "three",
+                    "optional": false,
+                    "start": 203,
+                    "end": 208
+                  },
+                  "start": 194,
+                  "end": 208
+                },
+                "optional": true,
+                "property": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "four",
+                  "optional": false,
+                  "start": 210,
+                  "end": 214
+                },
+                "start": 194,
+                "end": 214
+              },
+              "start": 194,
+              "end": 214
+            },
+            "start": 194,
+            "end": 215
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "ChainExpression",
+                "expression": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "one",
+                        "optional": false,
+                        "start": 219,
+                        "end": 222
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "two",
+                        "optional": false,
+                        "start": 223,
+                        "end": 226
+                      },
+                      "start": 219,
+                      "end": 226
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "three",
+                      "optional": false,
+                      "start": 228,
+                      "end": 233
+                    },
+                    "start": 219,
+                    "end": 233
+                  },
+                  "optional": true,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "four",
+                    "optional": false,
+                    "start": 235,
+                    "end": 239
+                  },
+                  "start": 219,
+                  "end": 239
+                },
+                "start": 219,
+                "end": 239
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "five",
+                "optional": false,
+                "start": 241,
+                "end": 245
+              },
+              "start": 218,
+              "end": 245
+            },
+            "start": 218,
+            "end": 246
+          }
+        ],
+        "start": 115,
+        "end": 248
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "processOptionalParens",
+        "optional": false,
+        "start": 82,
+        "end": 103
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "one",
+          "optional": true,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 110,
+              "end": 113
+            },
+            "start": 108,
+            "end": 113
+          },
+          "start": 104,
+          "end": 113
+        }
+      ],
+      "start": 73,
+      "end": 248
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 249
+}

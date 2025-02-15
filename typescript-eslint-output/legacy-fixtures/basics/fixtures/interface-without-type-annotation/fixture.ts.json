@@ -1,0 +1,47 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "start": 92,
+              "end": 95
+            },
+            "optional": false,
+            "readonly": false,
+            "static": false,
+            "start": 92,
+            "end": 96
+          }
+        ],
+        "start": 88,
+        "end": 98
+      },
+      "declare": false,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "start": 83,
+        "end": 87
+      },
+      "start": 73,
+      "end": 98
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 99
+}

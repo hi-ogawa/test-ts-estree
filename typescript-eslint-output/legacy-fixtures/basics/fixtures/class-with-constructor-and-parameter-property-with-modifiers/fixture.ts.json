@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 126,
+              "end": 137
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 181,
+                "end": 183
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "protected",
+                  "decorators": [],
+                  "override": true,
+                  "parameter": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "param",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSStringKeyword",
+                        "start": 173,
+                        "end": 179
+                      },
+                      "start": 171,
+                      "end": 179
+                    },
+                    "start": 166,
+                    "end": 179
+                  },
+                  "readonly": true,
+                  "static": false,
+                  "start": 138,
+                  "end": 179
+                }
+              ],
+              "start": 137,
+              "end": 183
+            },
+            "start": 126,
+            "end": 183
+          }
+        ],
+        "start": 122,
+        "end": 185
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SpecializedComponent",
+        "optional": false,
+        "start": 79,
+        "end": 99
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SomeComponent",
+        "optional": false,
+        "start": 108,
+        "end": 121
+      },
+      "start": 73,
+      "end": 185
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 186
+}

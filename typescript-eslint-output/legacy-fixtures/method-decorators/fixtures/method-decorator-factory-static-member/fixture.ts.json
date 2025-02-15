@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "CallExpression",
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "raw": "false",
+                      "value": false,
+                      "start": 90,
+                      "end": 95
+                    }
+                  ],
+                  "callee": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "Foo",
+                    "optional": false,
+                    "start": 86,
+                    "end": 89
+                  },
+                  "optional": false,
+                  "start": 86,
+                  "end": 96
+                },
+                "start": 85,
+                "end": 96
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "staticMethod",
+              "optional": false,
+              "start": 106,
+              "end": 118
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": true,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 121,
+                "end": 123
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 118,
+              "end": 123
+            },
+            "start": 85,
+            "end": 123
+          }
+        ],
+        "start": 81,
+        "end": 125
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 125
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 126
+}

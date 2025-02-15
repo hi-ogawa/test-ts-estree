@@ -1,0 +1,63 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "name": "priv",
+              "start": 96,
+              "end": 101
+            },
+            "optional": false,
+            "override": false,
+            "readonly": true,
+            "static": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 103,
+                "end": 109
+              },
+              "start": 101,
+              "end": 109
+            },
+            "value": null,
+            "start": 87,
+            "end": 110
+          }
+        ],
+        "start": 83,
+        "end": 112
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 112
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 113
+}

@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "ObjectPattern",
+          "decorators": [],
+          "optional": false,
+          "properties": [
+            {
+              "type": "Property",
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "start": 76,
+                "end": 79
+              },
+              "kind": "init",
+              "method": false,
+              "optional": false,
+              "shorthand": true,
+              "value": {
+                "type": "AssignmentPattern",
+                "decorators": [],
+                "left": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "start": 76,
+                  "end": 79
+                },
+                "optional": false,
+                "right": {
+                  "type": "ArrayExpression",
+                  "elements": [],
+                  "start": 82,
+                  "end": 84
+                },
+                "start": 76,
+                "end": 84
+              },
+              "start": 76,
+              "end": 84
+            }
+          ],
+          "start": 74,
+          "end": 86
+        },
+        "right": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "bar",
+          "optional": false,
+          "start": 89,
+          "end": 92
+        },
+        "start": 74,
+        "end": 92
+      },
+      "start": 73,
+      "end": 94
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 95
+}

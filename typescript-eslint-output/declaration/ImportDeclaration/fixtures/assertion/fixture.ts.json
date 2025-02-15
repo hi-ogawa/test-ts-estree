@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "key": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "start": 34,
+            "end": 38
+          },
+          "value": {
+            "type": "Literal",
+            "raw": "'json'",
+            "value": "json",
+            "start": 40,
+            "end": 46
+          },
+          "start": 34,
+          "end": 46
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'mod'",
+        "value": "mod",
+        "start": 19,
+        "end": 24
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "start": 12,
+            "end": 13
+          },
+          "start": 7,
+          "end": 13
+        }
+      ],
+      "start": 0,
+      "end": 49
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 50
+}

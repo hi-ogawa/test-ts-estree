@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 91,
+              "end": 102
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 148,
+                          "end": 152
+                        },
+                        "optional": false,
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "title",
+                          "optional": false,
+                          "start": 153,
+                          "end": 158
+                        },
+                        "start": 148,
+                        "end": 158
+                      },
+                      "right": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "config",
+                          "optional": false,
+                          "start": 161,
+                          "end": 167
+                        },
+                        "optional": false,
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "title",
+                          "optional": false,
+                          "start": 168,
+                          "end": 173
+                        },
+                        "start": 161,
+                        "end": 173
+                      },
+                      "start": 148,
+                      "end": 173
+                    },
+                    "start": 148,
+                    "end": 174
+                  }
+                ],
+                "start": 142,
+                "end": 178
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [
+                    {
+                      "type": "Decorator",
+                      "expression": {
+                        "type": "CallExpression",
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "APP_CONFIG",
+                            "optional": false,
+                            "start": 111,
+                            "end": 121
+                          }
+                        ],
+                        "callee": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "Inject",
+                          "optional": false,
+                          "start": 104,
+                          "end": 110
+                        },
+                        "optional": false,
+                        "start": 104,
+                        "end": 122
+                      },
+                      "start": 103,
+                      "end": 122
+                    }
+                  ],
+                  "name": "config",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "typeName": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "AppConfig",
+                        "optional": false,
+                        "start": 131,
+                        "end": 140
+                      },
+                      "start": 131,
+                      "end": 140
+                    },
+                    "start": 129,
+                    "end": 140
+                  },
+                  "start": 123,
+                  "end": 140
+                }
+              ],
+              "start": 102,
+              "end": 178
+            },
+            "start": 91,
+            "end": 178
+          }
+        ],
+        "start": 87,
+        "end": 180
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Service",
+        "optional": false,
+        "start": 79,
+        "end": 86
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 180
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 181
+}

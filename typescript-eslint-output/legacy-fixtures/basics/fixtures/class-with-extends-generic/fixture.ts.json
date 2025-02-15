@@ -1,0 +1,82 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 101,
+        "end": 103
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "start": 94,
+        "end": 97
+      },
+      "superTypeArguments": {
+        "type": "TSTypeParameterInstantiation",
+        "params": [
+          {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "B",
+              "optional": false,
+              "start": 98,
+              "end": 99
+            },
+            "start": 98,
+            "end": 99
+          }
+        ],
+        "start": 97,
+        "end": 100
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "start": 83,
+              "end": 84
+            },
+            "out": false,
+            "start": 83,
+            "end": 84
+          }
+        ],
+        "start": 82,
+        "end": 85
+      },
+      "start": 73,
+      "end": 103
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 104
+}

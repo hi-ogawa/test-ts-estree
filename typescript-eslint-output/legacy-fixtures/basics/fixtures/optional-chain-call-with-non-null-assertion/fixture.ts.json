@@ -1,0 +1,367 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "TSNonNullExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 113,
+                      "end": 116
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 118,
+                      "end": 121
+                    },
+                    "start": 113,
+                    "end": 121
+                  },
+                  "start": 113,
+                  "end": 122
+                },
+                "optional": false,
+                "start": 113,
+                "end": 124
+              },
+              "start": 113,
+              "end": 124
+            },
+            "start": 113,
+            "end": 125
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "TSNonNullExpression",
+                    "expression": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "one",
+                        "optional": false,
+                        "start": 128,
+                        "end": 131
+                      },
+                      "optional": true,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "two",
+                        "optional": false,
+                        "start": 133,
+                        "end": 136
+                      },
+                      "start": 128,
+                      "end": 136
+                    },
+                    "start": 128,
+                    "end": 137
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "three",
+                    "optional": false,
+                    "start": 138,
+                    "end": 143
+                  },
+                  "start": 128,
+                  "end": 143
+                },
+                "optional": false,
+                "start": 128,
+                "end": 145
+              },
+              "start": 128,
+              "end": 145
+            },
+            "start": 128,
+            "end": 146
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "TSNonNullExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 149,
+                      "end": 152
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 154,
+                      "end": 157
+                    },
+                    "start": 149,
+                    "end": 157
+                  },
+                  "start": 149,
+                  "end": 158
+                },
+                "optional": false,
+                "start": 149,
+                "end": 160
+              },
+              "start": 149,
+              "end": 160
+            },
+            "start": 149,
+            "end": 161
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "TSNonNullExpression",
+                    "expression": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "one",
+                        "optional": false,
+                        "start": 164,
+                        "end": 167
+                      },
+                      "optional": true,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "two",
+                        "optional": false,
+                        "start": 169,
+                        "end": 172
+                      },
+                      "start": 164,
+                      "end": 172
+                    },
+                    "start": 164,
+                    "end": 173
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "three",
+                    "optional": false,
+                    "start": 174,
+                    "end": 179
+                  },
+                  "start": 164,
+                  "end": 179
+                },
+                "optional": false,
+                "start": 164,
+                "end": 181
+              },
+              "start": 164,
+              "end": 181
+            },
+            "start": 164,
+            "end": 182
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "TSNonNullExpression",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "one",
+                      "optional": false,
+                      "start": 185,
+                      "end": 188
+                    },
+                    "optional": true,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "two",
+                      "optional": false,
+                      "start": 190,
+                      "end": 193
+                    },
+                    "start": 185,
+                    "end": 193
+                  },
+                  "start": 185,
+                  "end": 194
+                },
+                "optional": false,
+                "start": 185,
+                "end": 196
+              },
+              "start": 185,
+              "end": 196
+            },
+            "start": 185,
+            "end": 197
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ChainExpression",
+              "expression": {
+                "type": "CallExpression",
+                "arguments": [],
+                "callee": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "TSNonNullExpression",
+                    "expression": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "one",
+                        "optional": false,
+                        "start": 200,
+                        "end": 203
+                      },
+                      "optional": true,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "two",
+                        "optional": false,
+                        "start": 205,
+                        "end": 208
+                      },
+                      "start": 200,
+                      "end": 208
+                    },
+                    "start": 200,
+                    "end": 209
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "three",
+                    "optional": false,
+                    "start": 210,
+                    "end": 215
+                  },
+                  "start": 200,
+                  "end": 215
+                },
+                "optional": false,
+                "start": 200,
+                "end": 217
+              },
+              "start": 200,
+              "end": 217
+            },
+            "start": 200,
+            "end": 218
+          }
+        ],
+        "start": 109,
+        "end": 220
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "processOptional",
+        "optional": false,
+        "start": 82,
+        "end": 97
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "one",
+          "optional": true,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 104,
+              "end": 107
+            },
+            "start": 102,
+            "end": 107
+          },
+          "start": 98,
+          "end": 107
+        }
+      ],
+      "start": 73,
+      "end": 220
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 221
+}

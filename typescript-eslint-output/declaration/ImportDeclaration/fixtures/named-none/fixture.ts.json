@@ -1,0 +1,23 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'mod'",
+        "value": "mod",
+        "start": 15,
+        "end": 20
+      },
+      "specifiers": [],
+      "start": 0,
+      "end": 21
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 22
+}

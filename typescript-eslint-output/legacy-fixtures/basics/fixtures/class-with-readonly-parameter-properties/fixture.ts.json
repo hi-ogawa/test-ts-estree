@@ -1,0 +1,138 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 87,
+              "end": 98
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 177,
+                "end": 179
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "TSParameterProperty",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "firstName",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSStringKeyword",
+                        "start": 124,
+                        "end": 130
+                      },
+                      "start": 122,
+                      "end": 130
+                    },
+                    "start": 113,
+                    "end": 130
+                  },
+                  "readonly": true,
+                  "static": false,
+                  "start": 104,
+                  "end": 130
+                },
+                {
+                  "type": "TSParameterProperty",
+                  "decorators": [],
+                  "override": false,
+                  "parameter": {
+                    "type": "AssignmentPattern",
+                    "decorators": [],
+                    "left": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "lastName",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "TSTypeAnnotation",
+                        "typeAnnotation": {
+                          "type": "TSStringKeyword",
+                          "start": 155,
+                          "end": 161
+                        },
+                        "start": 153,
+                        "end": 161
+                      },
+                      "start": 145,
+                      "end": 161
+                    },
+                    "optional": false,
+                    "right": {
+                      "type": "Literal",
+                      "raw": "'Smith'",
+                      "value": "Smith",
+                      "start": 164,
+                      "end": 171
+                    },
+                    "start": 145,
+                    "end": 171
+                  },
+                  "readonly": true,
+                  "static": false,
+                  "start": 136,
+                  "end": 171
+                }
+              ],
+              "start": 98,
+              "end": 179
+            },
+            "start": 87,
+            "end": 179
+          }
+        ],
+        "start": 83,
+        "end": 181
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 181
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 182
+}

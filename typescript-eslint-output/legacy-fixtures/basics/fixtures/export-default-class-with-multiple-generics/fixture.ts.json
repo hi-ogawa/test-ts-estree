@@ -1,0 +1,70 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "body": [],
+          "start": 100,
+          "end": 102
+        },
+        "declare": false,
+        "decorators": [],
+        "id": null,
+        "implements": [],
+        "superClass": null,
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "const": false,
+              "in": false,
+              "name": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "T",
+                "optional": false,
+                "start": 94,
+                "end": 95
+              },
+              "out": false,
+              "start": 94,
+              "end": 95
+            },
+            {
+              "type": "TSTypeParameter",
+              "const": false,
+              "in": false,
+              "name": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "U",
+                "optional": false,
+                "start": 97,
+                "end": 98
+              },
+              "out": false,
+              "start": 97,
+              "end": 98
+            }
+          ],
+          "start": 93,
+          "end": 99
+        },
+        "start": 88,
+        "end": 102
+      },
+      "exportKind": "value",
+      "start": 73,
+      "end": 102
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 103
+}

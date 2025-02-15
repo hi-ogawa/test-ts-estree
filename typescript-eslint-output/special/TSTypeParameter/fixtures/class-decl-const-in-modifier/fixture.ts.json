@@ -1,0 +1,55 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 20,
+        "end": 22
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "start": 6,
+        "end": 7
+      },
+      "implements": [],
+      "superClass": null,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": true,
+            "in": true,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "start": 17,
+              "end": 18
+            },
+            "out": false,
+            "start": 8,
+            "end": 18
+          }
+        ],
+        "start": 7,
+        "end": 19
+      },
+      "start": 0,
+      "end": 22
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 23
+}

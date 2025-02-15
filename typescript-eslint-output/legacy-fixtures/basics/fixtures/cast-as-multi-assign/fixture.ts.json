@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "TSAsExpression",
+          "expression": {
+            "type": "TSAsExpression",
+            "expression": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "start": 74,
+              "end": 75
+            },
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 79,
+              "end": 85
+            },
+            "start": 74,
+            "end": 85
+          },
+          "typeAnnotation": {
+            "type": "TSAnyKeyword",
+            "start": 89,
+            "end": 92
+          },
+          "start": 74,
+          "end": 92
+        },
+        "right": {
+          "type": "Literal",
+          "raw": "42",
+          "value": 42,
+          "start": 96,
+          "end": 98
+        },
+        "start": 73,
+        "end": 98
+      },
+      "start": 73,
+      "end": 99
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 100
+}

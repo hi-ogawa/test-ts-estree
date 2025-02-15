@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [],
+        "start": 95,
+        "end": 97
+      },
+      "declare": true,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 91,
+        "end": 94
+      },
+      "start": 73,
+      "end": 97
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 98
+}

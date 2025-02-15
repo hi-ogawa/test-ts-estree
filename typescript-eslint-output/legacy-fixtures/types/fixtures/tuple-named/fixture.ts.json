@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTupleType",
+                "elementTypes": [
+                  {
+                    "type": "TSNamedTupleMember",
+                    "elementType": {
+                      "type": "TSNumberKeyword",
+                      "start": 84,
+                      "end": 90
+                    },
+                    "label": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "start": 81,
+                      "end": 82
+                    },
+                    "optional": false,
+                    "start": 81,
+                    "end": 90
+                  },
+                  {
+                    "type": "TSNamedTupleMember",
+                    "elementType": {
+                      "type": "TSNumberKeyword",
+                      "start": 95,
+                      "end": 101
+                    },
+                    "label": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "b",
+                      "optional": false,
+                      "start": 92,
+                      "end": 93
+                    },
+                    "optional": false,
+                    "start": 92,
+                    "end": 101
+                  },
+                  {
+                    "type": "TSNamedTupleMember",
+                    "elementType": {
+                      "type": "TSNumberKeyword",
+                      "start": 106,
+                      "end": 112
+                    },
+                    "label": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "c",
+                      "optional": false,
+                      "start": 103,
+                      "end": 104
+                    },
+                    "optional": false,
+                    "start": 103,
+                    "end": 112
+                  }
+                ],
+                "start": 80,
+                "end": 113
+              },
+              "start": 78,
+              "end": 113
+            },
+            "start": 77,
+            "end": 113
+          },
+          "init": null,
+          "start": 77,
+          "end": 113
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 114
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 115
+}

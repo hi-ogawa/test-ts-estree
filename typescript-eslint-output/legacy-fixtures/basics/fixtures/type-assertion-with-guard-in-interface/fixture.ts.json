@@ -1,0 +1,97 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "isString",
+              "optional": false,
+              "start": 97,
+              "end": 105
+            },
+            "kind": "method",
+            "optional": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "node",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSAnyKeyword",
+                    "start": 112,
+                    "end": 115
+                  },
+                  "start": 110,
+                  "end": 115
+                },
+                "start": 106,
+                "end": 115
+              }
+            ],
+            "readonly": false,
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypePredicate",
+                "asserts": true,
+                "parameterName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "node",
+                  "optional": false,
+                  "start": 126,
+                  "end": 130
+                },
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 134,
+                    "end": 140
+                  },
+                  "start": 134,
+                  "end": 140
+                },
+                "start": 118,
+                "end": 140
+              },
+              "start": 116,
+              "end": 140
+            },
+            "static": false,
+            "start": 97,
+            "end": 141
+          }
+        ],
+        "start": 93,
+        "end": 143
+      },
+      "declare": false,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "AssertFoo",
+        "optional": false,
+        "start": 83,
+        "end": 92
+      },
+      "start": 73,
+      "end": 143
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 144
+}

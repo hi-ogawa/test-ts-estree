@@ -1,0 +1,44 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "TSSatisfiesExpression",
+        "expression": {
+          "type": "BinaryExpression",
+          "operator": "===",
+          "left": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "start": 1,
+            "end": 4
+          },
+          "right": {
+            "type": "Literal",
+            "raw": "1",
+            "value": 1,
+            "start": 9,
+            "end": 10
+          },
+          "start": 1,
+          "end": 10
+        },
+        "typeAnnotation": {
+          "type": "TSBooleanKeyword",
+          "start": 22,
+          "end": 29
+        },
+        "start": 0,
+        "end": 29
+      },
+      "start": 0,
+      "end": 30
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 31
+}

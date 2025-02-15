@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "body": [],
+          "start": 96,
+          "end": 98
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "start": 86,
+          "end": 89
+        },
+        "implements": [],
+        "superClass": null,
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "const": false,
+              "in": false,
+              "name": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "T",
+                "optional": false,
+                "start": 90,
+                "end": 91
+              },
+              "out": false,
+              "start": 90,
+              "end": 91
+            },
+            {
+              "type": "TSTypeParameter",
+              "const": false,
+              "in": false,
+              "name": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "U",
+                "optional": false,
+                "start": 93,
+                "end": 94
+              },
+              "out": false,
+              "start": 93,
+              "end": 94
+            }
+          ],
+          "start": 89,
+          "end": 95
+        },
+        "start": 80,
+        "end": 98
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "start": 73,
+      "end": 98
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 99
+}

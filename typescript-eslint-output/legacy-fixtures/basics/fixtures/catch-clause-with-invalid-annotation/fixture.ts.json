@@ -1,0 +1,49 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TryStatement",
+      "block": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 77,
+        "end": 80
+      },
+      "finalizer": null,
+      "handler": {
+        "type": "CatchClause",
+        "body": {
+          "type": "BlockStatement",
+          "body": [],
+          "start": 99,
+          "end": 101
+        },
+        "param": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "e",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 91,
+              "end": 97
+            },
+            "start": 89,
+            "end": 97
+          },
+          "start": 88,
+          "end": 97
+        },
+        "start": 81,
+        "end": 101
+      },
+      "start": 73,
+      "end": 101
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 102
+}

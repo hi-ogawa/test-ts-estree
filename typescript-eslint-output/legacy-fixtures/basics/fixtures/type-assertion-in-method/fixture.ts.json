@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "isBar",
+              "optional": false,
+              "start": 94,
+              "end": 99
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": null,
+                    "start": 122,
+                    "end": 129
+                  }
+                ],
+                "start": 116,
+                "end": 133
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSTypePredicate",
+                  "asserts": true,
+                  "parameterName": {
+                    "type": "TSThisType",
+                    "start": 111,
+                    "end": 115
+                  },
+                  "typeAnnotation": null,
+                  "start": 103,
+                  "end": 115
+                },
+                "start": 101,
+                "end": 115
+              },
+              "start": 99,
+              "end": 133
+            },
+            "start": 94,
+            "end": 133
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "isBaz",
+              "optional": false,
+              "start": 136,
+              "end": 141
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "ArrowFunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": null,
+                    "start": 170,
+                    "end": 177
+                  }
+                ],
+                "start": 164,
+                "end": 181
+              },
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSTypePredicate",
+                  "asserts": true,
+                  "parameterName": {
+                    "type": "TSThisType",
+                    "start": 156,
+                    "end": 160
+                  },
+                  "typeAnnotation": null,
+                  "start": 148,
+                  "end": 160
+                },
+                "start": 146,
+                "end": 160
+              },
+              "start": 144,
+              "end": 181
+            },
+            "start": 136,
+            "end": 182
+          }
+        ],
+        "start": 90,
+        "end": 184
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "AssertsFoo",
+        "optional": false,
+        "start": 79,
+        "end": 89
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 184
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 185
+}

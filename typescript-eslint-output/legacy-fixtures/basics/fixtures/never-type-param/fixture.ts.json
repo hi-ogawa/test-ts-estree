@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSNeverKeyword",
+                      "start": 82,
+                      "end": 87
+                    }
+                  ],
+                  "start": 81,
+                  "end": 88
+                },
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "X",
+                  "optional": false,
+                  "start": 80,
+                  "end": 81
+                },
+                "start": 80,
+                "end": 88
+              },
+              "start": 78,
+              "end": 88
+            },
+            "start": 77,
+            "end": 88
+          },
+          "init": null,
+          "start": 77,
+          "end": 88
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 73,
+      "end": 89
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "Observable",
+            "optional": false,
+            "start": 90,
+            "end": 100
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "empty",
+            "optional": false,
+            "start": 101,
+            "end": 106
+          },
+          "start": 90,
+          "end": 106
+        },
+        "optional": false,
+        "typeArguments": {
+          "type": "TSTypeParameterInstantiation",
+          "params": [
+            {
+              "type": "TSNeverKeyword",
+              "start": 107,
+              "end": 112
+            }
+          ],
+          "start": 106,
+          "end": 113
+        },
+        "start": 90,
+        "end": 115
+      },
+      "start": 90,
+      "end": 116
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 117
+}

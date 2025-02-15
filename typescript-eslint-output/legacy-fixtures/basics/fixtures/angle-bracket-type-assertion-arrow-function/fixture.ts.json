@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "asserted2",
+            "optional": false,
+            "start": 77,
+            "end": 86
+          },
+          "init": {
+            "type": "TSTypeAssertion",
+            "expression": {
+              "type": "ArrowFunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "n",
+                      "optional": false,
+                      "start": 111,
+                      "end": 112
+                    },
+                    "start": 104,
+                    "end": 113
+                  }
+                ],
+                "start": 100,
+                "end": 115
+              },
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "n",
+                  "optional": false,
+                  "start": 95,
+                  "end": 96
+                }
+              ],
+              "start": 95,
+              "end": 115
+            },
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 90,
+              "end": 93
+            },
+            "start": 89,
+            "end": 116
+          },
+          "start": 77,
+          "end": 116
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "start": 73,
+      "end": 117
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 118
+}

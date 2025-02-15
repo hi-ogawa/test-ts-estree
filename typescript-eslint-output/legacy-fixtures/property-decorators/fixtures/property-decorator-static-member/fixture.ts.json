@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "baz",
+                  "optional": false,
+                  "start": 86,
+                  "end": 89
+                },
+                "start": 85,
+                "end": 89
+              }
+            ],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "start": 97,
+              "end": 98
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": true,
+            "value": null,
+            "start": 85,
+            "end": 99
+          },
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "qux",
+                  "optional": false,
+                  "start": 103,
+                  "end": 106
+                },
+                "start": 102,
+                "end": 106
+              }
+            ],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "b",
+              "optional": false,
+              "start": 116,
+              "end": 117
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": true,
+            "value": null,
+            "start": 102,
+            "end": 118
+          }
+        ],
+        "start": 81,
+        "end": 120
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 120
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 121
+}

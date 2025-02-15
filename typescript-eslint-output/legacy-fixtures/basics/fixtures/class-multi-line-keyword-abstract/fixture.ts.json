@@ -1,0 +1,45 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "abstract",
+        "optional": false,
+        "start": 73,
+        "end": 81
+      },
+      "start": 73,
+      "end": 82
+    },
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 91,
+        "end": 93
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "start": 89,
+        "end": 90
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 83,
+      "end": 93
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 94
+}

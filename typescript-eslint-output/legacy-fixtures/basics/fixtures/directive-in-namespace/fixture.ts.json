@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "directive": "use strict",
+            "expression": {
+              "type": "Literal",
+              "raw": "'use strict'",
+              "value": "use strict",
+              "start": 91,
+              "end": 103
+            },
+            "start": 91,
+            "end": 104
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "start": 111,
+                  "end": 112
+                },
+                "init": {
+                  "type": "Literal",
+                  "raw": "1",
+                  "value": 1,
+                  "start": 115,
+                  "end": 116
+                },
+                "start": 111,
+                "end": 116
+              }
+            ],
+            "declare": false,
+            "kind": "var",
+            "start": 107,
+            "end": 117
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "Literal",
+              "raw": "'use strict'",
+              "value": "use strict",
+              "start": 120,
+              "end": 132
+            },
+            "start": 120,
+            "end": 133
+          }
+        ],
+        "start": 87,
+        "end": 135
+      },
+      "declare": false,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 83,
+        "end": 86
+      },
+      "kind": "namespace",
+      "start": 73,
+      "end": 135
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 136
+}

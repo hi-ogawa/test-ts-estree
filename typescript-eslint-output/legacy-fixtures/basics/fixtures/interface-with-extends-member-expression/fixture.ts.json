@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [],
+        "start": 103,
+        "end": 105
+      },
+      "declare": false,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "expression": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "start": 95,
+              "end": 98
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "baz",
+              "optional": false,
+              "start": 99,
+              "end": 102
+            },
+            "start": 95,
+            "end": 102
+          },
+          "start": 95,
+          "end": 102
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 83,
+        "end": 86
+      },
+      "start": 73,
+      "end": 105
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 106
+}

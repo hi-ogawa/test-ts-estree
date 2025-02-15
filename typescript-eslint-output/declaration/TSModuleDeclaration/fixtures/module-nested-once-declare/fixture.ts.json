@@ -1,0 +1,46 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "kind": "module",
+      "body": {
+        "type": "TSModuleDeclaration",
+        "kind": "module",
+        "body": {
+          "type": "TSModuleBlock",
+          "body": [],
+          "start": 23,
+          "end": 25
+        },
+        "declare": false,
+        "global": false,
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "def",
+          "optional": false,
+          "start": 19,
+          "end": 22
+        },
+        "start": 19,
+        "end": 25
+      },
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "abc",
+        "optional": false,
+        "start": 15,
+        "end": 18
+      },
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 26
+}

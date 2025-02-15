@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "f",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSFunctionType",
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSTypeReference",
+                        "typeName": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "T",
+                          "optional": false,
+                          "start": 87,
+                          "end": 88
+                        },
+                        "start": 87,
+                        "end": 88
+                      },
+                      "start": 85,
+                      "end": 88
+                    },
+                    "start": 84,
+                    "end": 88
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "typeName": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "T",
+                      "optional": false,
+                      "start": 93,
+                      "end": 94
+                    },
+                    "start": 93,
+                    "end": 94
+                  },
+                  "start": 90,
+                  "end": 94
+                },
+                "typeParameters": {
+                  "type": "TSTypeParameterDeclaration",
+                  "params": [
+                    {
+                      "type": "TSTypeParameter",
+                      "const": false,
+                      "in": false,
+                      "name": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "T",
+                        "optional": false,
+                        "start": 81,
+                        "end": 82
+                      },
+                      "out": false,
+                      "start": 81,
+                      "end": 82
+                    }
+                  ],
+                  "start": 80,
+                  "end": 83
+                },
+                "start": 80,
+                "end": 94
+              },
+              "start": 78,
+              "end": 94
+            },
+            "start": 77,
+            "end": 94
+          },
+          "init": null,
+          "start": 77,
+          "end": 94
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 95
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 96
+}

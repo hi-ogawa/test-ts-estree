@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "e",
+                  "optional": false,
+                  "start": 127,
+                  "end": 128
+                }
+              ],
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "validateEntity",
+                "optional": false,
+                "start": 112,
+                "end": 126
+              },
+              "optional": false,
+              "start": 112,
+              "end": 129
+            },
+            "start": 112,
+            "end": 130
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "s",
+                  "optional": false,
+                  "start": 137,
+                  "end": 138
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "TSNonNullExpression",
+                    "expression": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "e",
+                      "optional": false,
+                      "start": 141,
+                      "end": 142
+                    },
+                    "start": 141,
+                    "end": 143
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "name",
+                    "optional": false,
+                    "start": 144,
+                    "end": 148
+                  },
+                  "start": 141,
+                  "end": 148
+                },
+                "start": 137,
+                "end": 148
+              }
+            ],
+            "declare": false,
+            "kind": "let",
+            "start": 133,
+            "end": 149
+          }
+        ],
+        "start": 108,
+        "end": 151
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "processEntity",
+        "optional": false,
+        "start": 82,
+        "end": 95
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "e",
+          "optional": true,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "Entity",
+                "optional": false,
+                "start": 100,
+                "end": 106
+              },
+              "start": 100,
+              "end": 106
+            },
+            "start": 98,
+            "end": 106
+          },
+          "start": 96,
+          "end": 106
+        }
+      ],
+      "start": 73,
+      "end": 151
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 152
+}

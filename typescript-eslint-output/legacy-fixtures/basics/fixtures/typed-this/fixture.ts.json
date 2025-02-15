@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "addClickListener",
+              "optional": false,
+              "start": 97,
+              "end": 113
+            },
+            "kind": "method",
+            "optional": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "onclick",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSFunctionType",
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "this",
+                        "optional": false,
+                        "typeAnnotation": {
+                          "type": "TSTypeAnnotation",
+                          "typeAnnotation": {
+                            "type": "TSVoidKeyword",
+                            "start": 130,
+                            "end": 134
+                          },
+                          "start": 128,
+                          "end": 134
+                        },
+                        "start": 124,
+                        "end": 134
+                      },
+                      {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "e",
+                        "optional": false,
+                        "typeAnnotation": {
+                          "type": "TSTypeAnnotation",
+                          "typeAnnotation": {
+                            "type": "TSTypeReference",
+                            "typeName": {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "Event",
+                              "optional": false,
+                              "start": 139,
+                              "end": 144
+                            },
+                            "start": 139,
+                            "end": 144
+                          },
+                          "start": 137,
+                          "end": 144
+                        },
+                        "start": 136,
+                        "end": 144
+                      }
+                    ],
+                    "returnType": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSVoidKeyword",
+                        "start": 149,
+                        "end": 153
+                      },
+                      "start": 146,
+                      "end": 153
+                    },
+                    "start": 123,
+                    "end": 153
+                  },
+                  "start": 121,
+                  "end": 153
+                },
+                "start": 114,
+                "end": 153
+              }
+            ],
+            "readonly": false,
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSVoidKeyword",
+                "start": 156,
+                "end": 160
+              },
+              "start": 154,
+              "end": 160
+            },
+            "static": false,
+            "start": 97,
+            "end": 161
+          }
+        ],
+        "start": 93,
+        "end": 163
+      },
+      "declare": false,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "UIElement",
+        "optional": false,
+        "start": 83,
+        "end": 92
+      },
+      "start": 73,
+      "end": 163
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 164
+}

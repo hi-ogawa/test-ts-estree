@@ -1,0 +1,112 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 85,
+              "end": 96
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 119,
+                "end": 121
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "TSParameterProperty",
+                  "accessibility": "private",
+                  "decorators": [
+                    {
+                      "type": "Decorator",
+                      "expression": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "d",
+                        "optional": false,
+                        "start": 98,
+                        "end": 99
+                      },
+                      "start": 97,
+                      "end": 99
+                    }
+                  ],
+                  "override": false,
+                  "parameter": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 111,
+                        "end": 117
+                      },
+                      "start": 109,
+                      "end": 117
+                    },
+                    "start": 108,
+                    "end": 117
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "start": 97,
+                  "end": 117
+                }
+              ],
+              "start": 96,
+              "end": 121
+            },
+            "start": 85,
+            "end": 121
+          }
+        ],
+        "start": 81,
+        "end": 123
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 123
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 124
+}

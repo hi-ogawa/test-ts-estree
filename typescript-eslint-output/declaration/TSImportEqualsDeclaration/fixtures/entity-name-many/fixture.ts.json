@@ -1,0 +1,56 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSImportEqualsDeclaration",
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "F",
+        "optional": false,
+        "start": 7,
+        "end": 8
+      },
+      "importKind": "value",
+      "moduleReference": {
+        "type": "TSQualifiedName",
+        "left": {
+          "type": "TSQualifiedName",
+          "left": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "start": 11,
+            "end": 12
+          },
+          "right": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "start": 13,
+            "end": 14
+          },
+          "start": 11,
+          "end": 14
+        },
+        "right": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "C",
+          "optional": false,
+          "start": 15,
+          "end": 16
+        },
+        "start": 11,
+        "end": 16
+      },
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 18
+}

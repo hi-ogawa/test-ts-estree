@@ -1,0 +1,63 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeQuery",
+                "exprName": {
+                  "type": "TSQualifiedName",
+                  "left": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "y",
+                    "optional": false,
+                    "start": 87,
+                    "end": 88
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "z",
+                    "optional": false,
+                    "start": 89,
+                    "end": 90
+                  },
+                  "start": 87,
+                  "end": 90
+                },
+                "start": 80,
+                "end": 90
+              },
+              "start": 78,
+              "end": 90
+            },
+            "start": 77,
+            "end": 90
+          },
+          "init": null,
+          "start": 77,
+          "end": 90
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 91
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 92
+}

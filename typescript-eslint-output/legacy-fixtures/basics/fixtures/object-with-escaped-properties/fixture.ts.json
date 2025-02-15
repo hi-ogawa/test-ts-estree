@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ObjectExpression",
+        "properties": [
+          {
+            "type": "Property",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "__",
+              "optional": false,
+              "start": 76,
+              "end": 78
+            },
+            "kind": "init",
+            "method": false,
+            "optional": false,
+            "shorthand": false,
+            "value": {
+              "type": "Literal",
+              "raw": "null",
+              "value": null,
+              "start": 80,
+              "end": 84
+            },
+            "start": 76,
+            "end": 84
+          }
+        ],
+        "start": 74,
+        "end": 86
+      },
+      "start": 73,
+      "end": 88
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ObjectExpression",
+        "properties": [
+          {
+            "type": "Property",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "__",
+              "optional": false,
+              "start": 93,
+              "end": 95
+            },
+            "kind": "init",
+            "method": true,
+            "optional": false,
+            "shorthand": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 98,
+                "end": 100
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 95,
+              "end": 100
+            },
+            "start": 93,
+            "end": 100
+          }
+        ],
+        "start": 91,
+        "end": 102
+      },
+      "start": 90,
+      "end": 104
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ObjectExpression",
+        "properties": [
+          {
+            "type": "Property",
+            "computed": true,
+            "key": {
+              "type": "Literal",
+              "raw": "'__'",
+              "value": "__",
+              "start": 110,
+              "end": 114
+            },
+            "kind": "init",
+            "method": false,
+            "optional": false,
+            "shorthand": false,
+            "value": {
+              "type": "Literal",
+              "raw": "null",
+              "value": null,
+              "start": 117,
+              "end": 121
+            },
+            "start": 109,
+            "end": 121
+          }
+        ],
+        "start": 107,
+        "end": 123
+      },
+      "start": 106,
+      "end": 125
+    },
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Literal",
+              "raw": "'__'",
+              "value": "__",
+              "start": 139,
+              "end": 143
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "null",
+              "value": null,
+              "start": 146,
+              "end": 150
+            },
+            "start": 139,
+            "end": 151
+          }
+        ],
+        "start": 135,
+        "end": 153
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "X",
+        "optional": false,
+        "start": 133,
+        "end": 134
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 127,
+      "end": 153
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 154
+}

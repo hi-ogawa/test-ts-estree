@@ -1,0 +1,44 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSEnumDeclaration",
+      "body": {
+        "type": "TSEnumBody",
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "computed": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "start": 13,
+              "end": 14
+            },
+            "start": 13,
+            "end": 14
+          }
+        ],
+        "start": 9,
+        "end": 17
+      },
+      "const": false,
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 5,
+        "end": 8
+      },
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 18
+}

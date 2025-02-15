@@ -1,0 +1,26 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "async": false,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "start": 17,
+        "end": 20
+      },
+      "params": [],
+      "start": 0,
+      "end": 23
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 24
+}

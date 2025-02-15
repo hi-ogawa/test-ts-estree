@@ -1,0 +1,82 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ImportExpression",
+        "options": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "assert",
+                "optional": false,
+                "start": 89,
+                "end": 95
+              },
+              "kind": "init",
+              "method": false,
+              "optional": false,
+              "shorthand": false,
+              "value": {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "type",
+                      "optional": false,
+                      "start": 99,
+                      "end": 103
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "optional": false,
+                    "shorthand": false,
+                    "value": {
+                      "type": "Literal",
+                      "raw": "'json'",
+                      "value": "json",
+                      "start": 105,
+                      "end": 111
+                    },
+                    "start": 99,
+                    "end": 111
+                  }
+                ],
+                "start": 97,
+                "end": 113
+              },
+              "start": 89,
+              "end": 113
+            }
+          ],
+          "start": 87,
+          "end": 115
+        },
+        "source": {
+          "type": "Literal",
+          "raw": "'foo'",
+          "value": "foo",
+          "start": 80,
+          "end": 85
+        },
+        "start": 73,
+        "end": 116
+      },
+      "start": 73,
+      "end": 117
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 118
+}

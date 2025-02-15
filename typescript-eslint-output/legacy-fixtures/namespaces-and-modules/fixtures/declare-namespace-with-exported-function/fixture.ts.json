@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "attributes": [],
+            "declaration": {
+              "type": "TSDeclareFunction",
+              "async": false,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "select",
+                "optional": false,
+                "start": 114,
+                "end": 120
+              },
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "selector",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 131,
+                      "end": 137
+                    },
+                    "start": 129,
+                    "end": 137
+                  },
+                  "start": 121,
+                  "end": 137
+                }
+              ],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSTypeReference",
+                  "typeArguments": {
+                    "type": "TSTypeParameterInstantiation",
+                    "params": [
+                      {
+                        "type": "TSAnyKeyword",
+                        "start": 150,
+                        "end": 153
+                      }
+                    ],
+                    "start": 149,
+                    "end": 154
+                  },
+                  "typeName": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "Selection",
+                    "optional": false,
+                    "start": 140,
+                    "end": 149
+                  },
+                  "start": 140,
+                  "end": 154
+                },
+                "start": 138,
+                "end": 154
+              },
+              "start": 105,
+              "end": 155
+            },
+            "exportKind": "value",
+            "source": null,
+            "specifiers": [],
+            "start": 98,
+            "end": 155
+          }
+        ],
+        "start": 94,
+        "end": 157
+      },
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "d3",
+        "optional": false,
+        "start": 91,
+        "end": 93
+      },
+      "kind": "namespace",
+      "start": 73,
+      "end": 157
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 158
+}

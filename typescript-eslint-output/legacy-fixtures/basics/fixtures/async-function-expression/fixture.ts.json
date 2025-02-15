@@ -1,0 +1,44 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "arguments": [],
+        "callee": {
+          "type": "FunctionExpression",
+          "async": true,
+          "body": {
+            "type": "BlockStatement",
+            "body": [],
+            "start": 96,
+            "end": 98
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "test",
+            "optional": false,
+            "start": 89,
+            "end": 93
+          },
+          "params": [],
+          "start": 74,
+          "end": 98
+        },
+        "optional": false,
+        "start": 73,
+        "end": 101
+      },
+      "start": 73,
+      "end": 102
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 103
+}

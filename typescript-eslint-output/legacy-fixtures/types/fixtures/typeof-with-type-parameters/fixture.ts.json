@@ -1,0 +1,83 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeQuery",
+                "exprName": {
+                  "type": "TSQualifiedName",
+                  "left": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "y",
+                    "optional": false,
+                    "start": 87,
+                    "end": 88
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "z",
+                    "optional": false,
+                    "start": 89,
+                    "end": 90
+                  },
+                  "start": 87,
+                  "end": 90
+                },
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSTypeReference",
+                      "typeName": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "w",
+                        "optional": false,
+                        "start": 91,
+                        "end": 92
+                      },
+                      "start": 91,
+                      "end": 92
+                    }
+                  ],
+                  "start": 90,
+                  "end": 93
+                },
+                "start": 80,
+                "end": 93
+              },
+              "start": 78,
+              "end": 93
+            },
+            "start": 77,
+            "end": 93
+          },
+          "init": null,
+          "start": 77,
+          "end": 93
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 94
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 95
+}

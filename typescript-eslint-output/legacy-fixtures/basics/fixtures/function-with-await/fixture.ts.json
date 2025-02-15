@@ -1,0 +1,60 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": true,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AwaitExpression",
+              "argument": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "future",
+                "optional": false,
+                "start": 111,
+                "end": 117
+              },
+              "start": 105,
+              "end": 117
+            },
+            "start": 105,
+            "end": 118
+          }
+        ],
+        "start": 101,
+        "end": 120
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "hope",
+        "optional": false,
+        "start": 88,
+        "end": 92
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "future",
+          "optional": false,
+          "start": 93,
+          "end": 99
+        }
+      ],
+      "start": 73,
+      "end": 120
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 121
+}

@@ -1,0 +1,44 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "key": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "start": 29,
+            "end": 33
+          },
+          "value": {
+            "type": "Literal",
+            "raw": "'json'",
+            "value": "json",
+            "start": 35,
+            "end": 41
+          },
+          "start": 29,
+          "end": 41
+        }
+      ],
+      "exported": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'mod'",
+        "value": "mod",
+        "start": 14,
+        "end": 19
+      },
+      "start": 0,
+      "end": 44
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 45
+}

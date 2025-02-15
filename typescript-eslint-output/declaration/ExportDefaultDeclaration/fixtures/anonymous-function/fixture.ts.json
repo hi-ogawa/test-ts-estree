@@ -1,0 +1,31 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "body": [],
+          "start": 27,
+          "end": 29
+        },
+        "declare": false,
+        "expression": false,
+        "generator": false,
+        "id": null,
+        "params": [],
+        "start": 15,
+        "end": 29
+      },
+      "exportKind": "value",
+      "start": 0,
+      "end": 29
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 30
+}

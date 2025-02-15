@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSTypeQuery",
+        "exprName": {
+          "type": "TSImportType",
+          "argument": {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'A'",
+              "value": "A",
+              "start": 96,
+              "end": 99
+            },
+            "start": 96,
+            "end": 99
+          },
+          "attributes": [],
+          "qualifier": null,
+          "typeArguments": null,
+          "start": 89,
+          "end": 100
+        },
+        "start": 82,
+        "end": 100
+      },
+      "start": 73,
+      "end": 101
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "start": 107,
+        "end": 108
+      },
+      "typeAnnotation": {
+        "type": "TSImportType",
+        "argument": {
+          "type": "TSLiteralType",
+          "literal": {
+            "type": "Literal",
+            "raw": "'B'",
+            "value": "B",
+            "start": 118,
+            "end": 121
+          },
+          "start": 118,
+          "end": 121
+        },
+        "attributes": [],
+        "qualifier": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "X",
+          "optional": false,
+          "start": 123,
+          "end": 124
+        },
+        "typeArguments": {
+          "type": "TSTypeParameterInstantiation",
+          "params": [
+            {
+              "type": "TSTypeReference",
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "Y",
+                "optional": false,
+                "start": 125,
+                "end": 126
+              },
+              "start": 125,
+              "end": 126
+            }
+          ],
+          "start": 124,
+          "end": 127
+        },
+        "start": 111,
+        "end": 127
+      },
+      "start": 102,
+      "end": 128
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 129
+}

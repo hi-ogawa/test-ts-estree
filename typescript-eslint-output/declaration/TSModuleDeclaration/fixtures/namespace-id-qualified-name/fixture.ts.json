@@ -1,0 +1,56 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [],
+        "start": 16,
+        "end": 18
+      },
+      "declare": false,
+      "global": false,
+      "id": {
+        "type": "TSQualifiedName",
+        "left": {
+          "type": "TSQualifiedName",
+          "left": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "start": 10,
+            "end": 11
+          },
+          "right": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "start": 12,
+            "end": 13
+          },
+          "start": 10,
+          "end": 13
+        },
+        "right": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "C",
+          "optional": false,
+          "start": 14,
+          "end": 15
+        },
+        "start": 10,
+        "end": 15
+      },
+      "kind": "namespace",
+      "start": 0,
+      "end": 18
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 19
+}

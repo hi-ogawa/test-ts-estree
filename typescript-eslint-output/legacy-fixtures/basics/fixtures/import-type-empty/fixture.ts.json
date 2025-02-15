@@ -1,0 +1,37 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'./foo'",
+        "value": "./foo",
+        "start": 145,
+        "end": 152
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "start": 135,
+            "end": 139
+          },
+          "start": 135,
+          "end": 139
+        }
+      ],
+      "start": 128,
+      "end": 153
+    }
+  ],
+  "sourceType": "module",
+  "start": 128,
+  "end": 154
+}

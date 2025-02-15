@@ -1,0 +1,38 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 26,
+        "end": 28
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 6,
+        "end": 9
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Literal",
+        "raw": "'Thing'",
+        "value": "Thing",
+        "start": 18,
+        "end": 25
+      },
+      "start": 0,
+      "end": 28
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 29
+}

@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "raw": "'mod'",
+        "value": "mod",
+        "start": 29,
+        "end": 34
+      },
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "exported": {
+            "type": "Literal",
+            "raw": "'a a'",
+            "value": "a a",
+            "start": 9,
+            "end": 14
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Literal",
+            "raw": "'a a'",
+            "value": "a a",
+            "start": 9,
+            "end": 14
+          },
+          "start": 9,
+          "end": 14
+        },
+        {
+          "type": "ExportSpecifier",
+          "exported": {
+            "type": "Literal",
+            "raw": "'b b'",
+            "value": "b b",
+            "start": 16,
+            "end": 21
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Literal",
+            "raw": "'b b'",
+            "value": "b b",
+            "start": 16,
+            "end": 21
+          },
+          "start": 16,
+          "end": 21
+        }
+      ],
+      "start": 0,
+      "end": 35
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 36
+}

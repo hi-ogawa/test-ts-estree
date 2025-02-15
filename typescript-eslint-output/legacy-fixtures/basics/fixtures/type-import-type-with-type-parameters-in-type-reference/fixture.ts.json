@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "X",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSTypeReference",
+        "typeArguments": {
+          "type": "TSTypeParameterInstantiation",
+          "params": [
+            {
+              "type": "TSImportType",
+              "argument": {
+                "type": "TSLiteralType",
+                "literal": {
+                  "type": "Literal",
+                  "raw": "''",
+                  "value": "",
+                  "start": 91,
+                  "end": 93
+                },
+                "start": 91,
+                "end": 93
+              },
+              "attributes": [],
+              "qualifier": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "B",
+                "optional": false,
+                "start": 95,
+                "end": 96
+              },
+              "typeArguments": {
+                "type": "TSTypeParameterInstantiation",
+                "params": [
+                  {
+                    "type": "TSAnyKeyword",
+                    "start": 97,
+                    "end": 100
+                  }
+                ],
+                "start": 96,
+                "end": 101
+              },
+              "start": 84,
+              "end": 101
+            }
+          ],
+          "start": 83,
+          "end": 102
+        },
+        "typeName": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "A",
+          "optional": false,
+          "start": 82,
+          "end": 83
+        },
+        "start": 82,
+        "end": 102
+      },
+      "start": 73,
+      "end": 103
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 104
+}

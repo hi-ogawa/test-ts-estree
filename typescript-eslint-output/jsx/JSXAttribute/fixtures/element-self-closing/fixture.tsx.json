@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "JSXElement",
+        "children": [],
+        "closingElement": null,
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "attributes": [
+            {
+              "type": "JSXAttribute",
+              "name": {
+                "type": "JSXIdentifier",
+                "name": "foo",
+                "start": 5,
+                "end": 8
+              },
+              "value": {
+                "type": "JSXElement",
+                "children": [],
+                "closingElement": null,
+                "openingElement": {
+                  "type": "JSXOpeningElement",
+                  "attributes": [],
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "name": "div",
+                    "start": 10,
+                    "end": 13
+                  },
+                  "selfClosing": true,
+                  "start": 9,
+                  "end": 16
+                },
+                "start": 9,
+                "end": 16
+              },
+              "start": 5,
+              "end": 16
+            }
+          ],
+          "name": {
+            "type": "JSXIdentifier",
+            "name": "App",
+            "start": 1,
+            "end": 4
+          },
+          "selfClosing": true,
+          "start": 0,
+          "end": 19
+        },
+        "start": 0,
+        "end": 19
+      },
+      "start": 0,
+      "end": 20
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 21
+}

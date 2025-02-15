@@ -1,0 +1,49 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "async": false,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "d",
+        "optional": false,
+        "start": 17,
+        "end": 18
+      },
+      "params": [],
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": true,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "start": 25,
+              "end": 26
+            },
+            "out": false,
+            "start": 19,
+            "end": 26
+          }
+        ],
+        "start": 18,
+        "end": 27
+      },
+      "start": 0,
+      "end": 30
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 31
+}

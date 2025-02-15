@@ -1,0 +1,76 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 113,
+        "end": 115
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "start": 82,
+        "end": 86
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "abc",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "typeArguments": {
+                "type": "TSTypeParameterInstantiation",
+                "params": [
+                  {
+                    "type": "TSSymbolKeyword",
+                    "start": 96,
+                    "end": 102
+                  },
+                  {
+                    "type": "TSStringKeyword",
+                    "start": 104,
+                    "end": 110
+                  }
+                ],
+                "start": 95,
+                "end": 111
+              },
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "Map",
+                "optional": false,
+                "start": 92,
+                "end": 95
+              },
+              "start": 92,
+              "end": 111
+            },
+            "start": 90,
+            "end": 111
+          },
+          "start": 87,
+          "end": 111
+        }
+      ],
+      "start": 73,
+      "end": 115
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 116
+}

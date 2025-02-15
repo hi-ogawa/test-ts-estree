@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "start": 138,
+              "end": 141
+            },
+            "kind": "method",
+            "optional": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "bar",
+                "optional": false,
+                "start": 142,
+                "end": 145
+              }
+            ],
+            "readonly": false,
+            "static": false,
+            "start": 138,
+            "end": 147
+          }
+        ],
+        "start": 88,
+        "end": 149
+      },
+      "declare": false,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Test",
+        "optional": false,
+        "start": 83,
+        "end": 87
+      },
+      "start": 73,
+      "end": 149
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 150
+}

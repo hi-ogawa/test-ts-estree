@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "BinaryExpression",
+              "operator": "===",
+              "left": {
+                "type": "UnaryExpression",
+                "argument": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "start": 130,
+                  "end": 131
+                },
+                "operator": "typeof",
+                "prefix": true,
+                "start": 123,
+                "end": 131
+              },
+              "right": {
+                "type": "Literal",
+                "raw": "'string'",
+                "value": "string",
+                "start": 136,
+                "end": 144
+              },
+              "start": 123,
+              "end": 144
+            },
+            "start": 116,
+            "end": 145
+          }
+        ],
+        "start": 112,
+        "end": 147
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "isString",
+        "optional": false,
+        "start": 82,
+        "end": 90
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 94,
+              "end": 97
+            },
+            "start": 92,
+            "end": 97
+          },
+          "start": 91,
+          "end": 97
+        }
+      ],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "typeAnnotation": {
+          "type": "TSTypePredicate",
+          "asserts": false,
+          "parameterName": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "start": 100,
+            "end": 101
+          },
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 105,
+              "end": 111
+            },
+            "start": 105,
+            "end": 111
+          },
+          "start": 100,
+          "end": 111
+        },
+        "start": 98,
+        "end": 111
+      },
+      "start": 73,
+      "end": 147
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 148
+}

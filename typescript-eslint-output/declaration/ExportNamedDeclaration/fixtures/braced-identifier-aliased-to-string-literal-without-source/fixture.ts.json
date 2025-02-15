@@ -1,0 +1,40 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "exported": {
+            "type": "Literal",
+            "raw": "'b'",
+            "value": "b",
+            "start": 14,
+            "end": 17
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "start": 9,
+            "end": 10
+          },
+          "start": 9,
+          "end": 17
+        }
+      ],
+      "start": 0,
+      "end": 20
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 21
+}

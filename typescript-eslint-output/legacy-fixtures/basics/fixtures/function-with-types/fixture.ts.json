@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "name",
+              "optional": false,
+              "start": 123,
+              "end": 127
+            },
+            "start": 116,
+            "end": 128
+          }
+        ],
+        "start": 112,
+        "end": 130
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "message",
+        "optional": false,
+        "start": 82,
+        "end": 89
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "name",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 96,
+              "end": 102
+            },
+            "start": 94,
+            "end": 102
+          },
+          "start": 90,
+          "end": 102
+        }
+      ],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "typeAnnotation": {
+          "type": "TSStringKeyword",
+          "start": 105,
+          "end": 111
+        },
+        "start": 103,
+        "end": 111
+      },
+      "start": 73,
+      "end": 130
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 131
+}

@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Color",
+        "optional": false,
+        "start": 78,
+        "end": 83
+      },
+      "typeAnnotation": {
+        "type": "TSUnionType",
+        "types": [
+          {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'red'",
+              "value": "red",
+              "start": 86,
+              "end": 91
+            },
+            "start": 86,
+            "end": 91
+          },
+          {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'blue'",
+              "value": "blue",
+              "start": 94,
+              "end": 100
+            },
+            "start": 94,
+            "end": 100
+          }
+        ],
+        "start": 86,
+        "end": 100
+      },
+      "start": 73,
+      "end": 101
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Quantity",
+        "optional": false,
+        "start": 107,
+        "end": 115
+      },
+      "typeAnnotation": {
+        "type": "TSUnionType",
+        "types": [
+          {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'one'",
+              "value": "one",
+              "start": 118,
+              "end": 123
+            },
+            "start": 118,
+            "end": 123
+          },
+          {
+            "type": "TSLiteralType",
+            "literal": {
+              "type": "Literal",
+              "raw": "'two'",
+              "value": "two",
+              "start": 126,
+              "end": 131
+            },
+            "start": 126,
+            "end": 131
+          }
+        ],
+        "start": 118,
+        "end": 131
+      },
+      "start": 102,
+      "end": 132
+    },
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SeussFish",
+        "optional": false,
+        "start": 138,
+        "end": 147
+      },
+      "typeAnnotation": {
+        "type": "TSTemplateLiteralType",
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "tail": false,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "start": 150,
+            "end": 153
+          },
+          {
+            "type": "TemplateElement",
+            "tail": true,
+            "value": {
+              "cooked": " fish",
+              "raw": " fish"
+            },
+            "start": 169,
+            "end": 176
+          }
+        ],
+        "types": [
+          {
+            "type": "TSUnionType",
+            "types": [
+              {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "Quantity",
+                  "optional": false,
+                  "start": 153,
+                  "end": 161
+                },
+                "start": 153,
+                "end": 161
+              },
+              {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "Color",
+                  "optional": false,
+                  "start": 164,
+                  "end": 169
+                },
+                "start": 164,
+                "end": 169
+              }
+            ],
+            "start": 153,
+            "end": 169
+          }
+        ],
+        "start": 150,
+        "end": 176
+      },
+      "start": 133,
+      "end": 177
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 178
+}

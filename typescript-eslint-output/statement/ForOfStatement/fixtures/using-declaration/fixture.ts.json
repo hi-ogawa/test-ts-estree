@@ -1,0 +1,52 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 25,
+        "end": 28
+      },
+      "left": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "start": 17,
+              "end": 18
+            },
+            "init": null,
+            "start": 17,
+            "end": 18
+          }
+        ],
+        "declare": false,
+        "kind": "await using",
+        "start": 5,
+        "end": 18
+      },
+      "right": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "b",
+        "optional": false,
+        "start": 22,
+        "end": 23
+      },
+      "start": 0,
+      "end": 28
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 29
+}

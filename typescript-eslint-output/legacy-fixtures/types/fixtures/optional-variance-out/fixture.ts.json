@@ -1,0 +1,69 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Provider",
+        "optional": false,
+        "start": 78,
+        "end": 86
+      },
+      "typeAnnotation": {
+        "type": "TSFunctionType",
+        "params": [],
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "typeAnnotation": {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "start": 102,
+              "end": 103
+            },
+            "start": 102,
+            "end": 103
+          },
+          "start": 99,
+          "end": 103
+        },
+        "start": 96,
+        "end": 103
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "start": 91,
+              "end": 92
+            },
+            "out": true,
+            "start": 87,
+            "end": 92
+          }
+        ],
+        "start": 86,
+        "end": 93
+      },
+      "start": 73,
+      "end": 104
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 105
+}

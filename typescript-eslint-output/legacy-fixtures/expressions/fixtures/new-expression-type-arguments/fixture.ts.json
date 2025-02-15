@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "start": 79,
+            "end": 80
+          },
+          "init": {
+            "type": "NewExpression",
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "start": 87,
+              "end": 88
+            },
+            "typeArguments": {
+              "type": "TSTypeParameterInstantiation",
+              "params": [
+                {
+                  "type": "TSTypeReference",
+                  "typeName": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "B",
+                    "optional": false,
+                    "start": 89,
+                    "end": 90
+                  },
+                  "start": 89,
+                  "end": 90
+                }
+              ],
+              "start": 88,
+              "end": 91
+            },
+            "start": 83,
+            "end": 93
+          },
+          "start": 79,
+          "end": 93
+        }
+      ],
+      "declare": false,
+      "kind": "const",
+      "start": 73,
+      "end": 94
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 95
+}

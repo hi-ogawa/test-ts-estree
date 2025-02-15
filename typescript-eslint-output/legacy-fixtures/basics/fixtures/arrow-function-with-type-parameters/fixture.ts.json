@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ArrowFunctionExpression",
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "start": 100,
+                "end": 101
+              },
+              "start": 93,
+              "end": 102
+            }
+          ],
+          "start": 89,
+          "end": 104
+        },
+        "expression": false,
+        "generator": false,
+        "id": null,
+        "params": [
+          {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "b",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "X",
+                  "optional": false,
+                  "start": 80,
+                  "end": 81
+                },
+                "start": 80,
+                "end": 81
+              },
+              "start": 78,
+              "end": 81
+            },
+            "start": 77,
+            "end": 81
+          }
+        ],
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "typeAnnotation": {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "X",
+              "optional": false,
+              "start": 84,
+              "end": 85
+            },
+            "start": 84,
+            "end": 85
+          },
+          "start": 82,
+          "end": 85
+        },
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "const": false,
+              "in": false,
+              "name": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "X",
+                "optional": false,
+                "start": 74,
+                "end": 75
+              },
+              "out": false,
+              "start": 74,
+              "end": 75
+            }
+          ],
+          "start": 73,
+          "end": 76
+        },
+        "start": 73,
+        "end": 104
+      },
+      "start": 73,
+      "end": 105
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 106
+}

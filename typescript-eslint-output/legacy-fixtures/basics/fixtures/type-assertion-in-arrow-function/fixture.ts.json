@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "assertString",
+            "optional": false,
+            "start": 79,
+            "end": 91
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "async": false,
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": null,
+                  "start": 121,
+                  "end": 128
+                }
+              ],
+              "start": 117,
+              "end": 130
+            },
+            "expression": false,
+            "generator": false,
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSAnyKeyword",
+                    "start": 98,
+                    "end": 101
+                  },
+                  "start": 96,
+                  "end": 101
+                },
+                "start": 95,
+                "end": 101
+              }
+            ],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypePredicate",
+                "asserts": true,
+                "parameterName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "start": 112,
+                  "end": 113
+                },
+                "typeAnnotation": null,
+                "start": 104,
+                "end": 113
+              },
+              "start": 102,
+              "end": 113
+            },
+            "start": 94,
+            "end": 130
+          },
+          "start": 79,
+          "end": 130
+        }
+      ],
+      "declare": false,
+      "kind": "const",
+      "start": 73,
+      "end": 131
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 132
+}

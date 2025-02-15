@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 119,
+        "end": 121
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "start": 82,
+        "end": 83
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "Base",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "T",
+                "optional": false,
+                "start": 116,
+                "end": 117
+              },
+              "start": 116,
+              "end": 117
+            },
+            "start": 114,
+            "end": 117
+          },
+          "start": 110,
+          "end": 117
+        }
+      ],
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "const": false,
+            "constraint": {
+              "type": "TSTypeReference",
+              "typeArguments": {
+                "type": "TSTypeParameterInstantiation",
+                "params": [
+                  {
+                    "type": "TSTypeReference",
+                    "typeName": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "M",
+                      "optional": false,
+                      "start": 106,
+                      "end": 107
+                    },
+                    "start": 106,
+                    "end": 107
+                  }
+                ],
+                "start": 105,
+                "end": 108
+              },
+              "typeName": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "Constructor",
+                "optional": false,
+                "start": 94,
+                "end": 105
+              },
+              "start": 94,
+              "end": 108
+            },
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "start": 84,
+              "end": 85
+            },
+            "out": false,
+            "start": 84,
+            "end": 108
+          }
+        ],
+        "start": 83,
+        "end": 109
+      },
+      "start": 73,
+      "end": 121
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 122
+}

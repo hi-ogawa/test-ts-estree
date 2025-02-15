@@ -1,0 +1,30 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "attributes": [],
+      "exported": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "start": 17,
+        "end": 18
+      },
+      "exportKind": "type",
+      "source": {
+        "type": "Literal",
+        "raw": "'a'",
+        "value": "a",
+        "start": 24,
+        "end": 27
+      },
+      "start": 0,
+      "end": 28
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 29
+}

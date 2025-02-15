@@ -1,0 +1,71 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": true,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "TSAbstractMethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "show",
+              "optional": false,
+              "start": 153,
+              "end": 157
+            },
+            "kind": "method",
+            "optional": false,
+            "override": true,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 157,
+              "end": 160
+            },
+            "start": 135,
+            "end": 160
+          }
+        ],
+        "start": 131,
+        "end": 162
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SpecializedComponent",
+        "optional": false,
+        "start": 88,
+        "end": 108
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "SomeComponent",
+        "optional": false,
+        "start": 117,
+        "end": 130
+      },
+      "start": 73,
+      "end": 162
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 163
+}

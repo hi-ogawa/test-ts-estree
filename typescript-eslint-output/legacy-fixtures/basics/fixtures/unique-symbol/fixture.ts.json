@@ -1,0 +1,33 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSTypeOperator",
+        "operator": "unique",
+        "typeAnnotation": {
+          "type": "TSSymbolKeyword",
+          "start": 89,
+          "end": 95
+        },
+        "start": 82,
+        "end": 95
+      },
+      "start": 73,
+      "end": 96
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 97
+}

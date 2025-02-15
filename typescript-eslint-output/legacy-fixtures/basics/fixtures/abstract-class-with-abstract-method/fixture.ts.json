@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "abstract": true,
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "TSAbstractMethodDefinition",
+              "computed": false,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "createSocket",
+                "optional": false,
+                "start": 123,
+                "end": 135
+              },
+              "kind": "method",
+              "optional": false,
+              "override": false,
+              "static": false,
+              "value": {
+                "type": "TSEmptyBodyFunctionExpression",
+                "async": false,
+                "body": null,
+                "declare": false,
+                "expression": false,
+                "generator": false,
+                "id": null,
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "typeArguments": {
+                      "type": "TSTypeParameterInstantiation",
+                      "params": [
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 147,
+                          "end": 153
+                        }
+                      ],
+                      "start": 146,
+                      "end": 154
+                    },
+                    "typeName": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "Promise",
+                      "optional": false,
+                      "start": 139,
+                      "end": 146
+                    },
+                    "start": 139,
+                    "end": 154
+                  },
+                  "start": 137,
+                  "end": 154
+                },
+                "start": 135,
+                "end": 155
+              },
+              "start": 114,
+              "end": 155
+            }
+          ],
+          "start": 110,
+          "end": 157
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "AbstractSocket",
+          "optional": false,
+          "start": 95,
+          "end": 109
+        },
+        "implements": [],
+        "superClass": null,
+        "start": 80,
+        "end": 157
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "start": 73,
+      "end": 157
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 158
+}

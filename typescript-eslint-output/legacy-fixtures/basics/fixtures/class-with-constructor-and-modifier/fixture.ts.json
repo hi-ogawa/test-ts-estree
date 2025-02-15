@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "accessibility": "protected",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 95,
+              "end": 106
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 109,
+                "end": 111
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 106,
+              "end": 111
+            },
+            "start": 85,
+            "end": 111
+          },
+          {
+            "type": "MethodDefinition",
+            "accessibility": "public",
+            "computed": true,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "raw": "'constructor'",
+              "value": "constructor",
+              "start": 123,
+              "end": 136
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 140,
+                "end": 142
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "start": 137,
+              "end": 142
+            },
+            "start": 115,
+            "end": 142
+          }
+        ],
+        "start": 81,
+        "end": 144
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 144
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 145
+}

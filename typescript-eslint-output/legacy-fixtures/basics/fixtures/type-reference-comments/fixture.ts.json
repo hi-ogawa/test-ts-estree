@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "mBuffers",
+              "optional": false,
+              "start": 99,
+              "end": 107
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSAnyKeyword",
+                      "start": 127,
+                      "end": 130
+                    }
+                  ],
+                  "start": 126,
+                  "end": 147
+                },
+                "typeName": {
+                  "type": "TSQualifiedName",
+                  "left": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "interop",
+                    "optional": false,
+                    "start": 109,
+                    "end": 116
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "Reference",
+                    "optional": false,
+                    "start": 117,
+                    "end": 126
+                  },
+                  "start": 109,
+                  "end": 126
+                },
+                "start": 109,
+                "end": 147
+              },
+              "start": 107,
+              "end": 147
+            },
+            "value": null,
+            "start": 99,
+            "end": 148
+          }
+        ],
+        "start": 95,
+        "end": 150
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "AudioBufferList",
+        "optional": false,
+        "start": 79,
+        "end": 94
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 150
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 151
+}

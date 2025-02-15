@@ -1,0 +1,20 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "raw": "'use strict'",
+        "value": "use strict",
+        "start": 119,
+        "end": 131
+      },
+      "start": 118,
+      "end": 133
+    }
+  ],
+  "sourceType": "module",
+  "start": 118,
+  "end": 134
+}

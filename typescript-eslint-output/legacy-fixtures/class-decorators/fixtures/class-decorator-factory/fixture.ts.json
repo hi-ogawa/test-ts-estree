@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 127,
+        "end": 129
+      },
+      "declare": false,
+      "decorators": [
+        {
+          "type": "Decorator",
+          "expression": {
+            "type": "CallExpression",
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "selector",
+                      "optional": false,
+                      "start": 88,
+                      "end": 96
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "optional": false,
+                    "shorthand": false,
+                    "value": {
+                      "type": "Literal",
+                      "raw": "'foo'",
+                      "value": "foo",
+                      "start": 98,
+                      "end": 103
+                    },
+                    "start": 88,
+                    "end": 103
+                  }
+                ],
+                "start": 84,
+                "end": 106
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "Component",
+              "optional": false,
+              "start": 74,
+              "end": 83
+            },
+            "optional": false,
+            "start": 74,
+            "end": 107
+          },
+          "start": 73,
+          "end": 107
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "FooComponent",
+        "optional": false,
+        "start": 114,
+        "end": 126
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 129
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 130
+}

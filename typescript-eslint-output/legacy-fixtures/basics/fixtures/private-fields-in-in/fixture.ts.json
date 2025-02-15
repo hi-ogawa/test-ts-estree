@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "name": "prop1",
+              "start": 87,
+              "end": 93
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": null,
+            "start": 87,
+            "end": 94
+          },
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "method",
+              "optional": false,
+              "start": 97,
+              "end": 103
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "operator": "in",
+                      "left": {
+                        "type": "PrivateIdentifier",
+                        "name": "prop1",
+                        "start": 122,
+                        "end": 128
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "arg",
+                        "optional": false,
+                        "start": 132,
+                        "end": 135
+                      },
+                      "start": 122,
+                      "end": 135
+                    },
+                    "start": 115,
+                    "end": 136
+                  }
+                ],
+                "start": 109,
+                "end": 140
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "arg",
+                  "optional": false,
+                  "start": 104,
+                  "end": 107
+                }
+              ],
+              "start": 103,
+              "end": 140
+            },
+            "start": 97,
+            "end": 140
+          }
+        ],
+        "start": 83,
+        "end": 142
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 79,
+        "end": 82
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 142
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 143
+}

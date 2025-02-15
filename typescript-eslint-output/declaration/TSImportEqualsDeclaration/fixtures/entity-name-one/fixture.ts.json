@@ -1,0 +1,30 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSImportEqualsDeclaration",
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "F",
+        "optional": false,
+        "start": 7,
+        "end": 8
+      },
+      "importKind": "value",
+      "moduleReference": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "start": 11,
+        "end": 12
+      },
+      "start": 0,
+      "end": 13
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 14
+}

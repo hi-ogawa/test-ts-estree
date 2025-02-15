@@ -1,0 +1,62 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "start": 4,
+            "end": 5
+          },
+          "init": null,
+          "start": 4,
+          "end": 5
+        },
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "start": 7,
+            "end": 8
+          },
+          "init": null,
+          "start": 7,
+          "end": 8
+        },
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "z",
+            "optional": false,
+            "start": 10,
+            "end": 11
+          },
+          "init": null,
+          "start": 10,
+          "end": 11
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 0,
+      "end": 12
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 13
+}

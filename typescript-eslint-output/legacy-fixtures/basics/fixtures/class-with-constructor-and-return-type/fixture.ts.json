@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "start": 85,
+              "end": 96
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 107,
+                "end": 109
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 100,
+                  "end": 106
+                },
+                "start": 98,
+                "end": 106
+              },
+              "start": 96,
+              "end": 109
+            },
+            "start": 85,
+            "end": 109
+          },
+          {
+            "type": "MethodDefinition",
+            "computed": true,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "raw": "'constructor'",
+              "value": "constructor",
+              "start": 114,
+              "end": 127
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 139,
+                "end": 141
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 132,
+                  "end": 138
+                },
+                "start": 130,
+                "end": 138
+              },
+              "start": 128,
+              "end": 141
+            },
+            "start": 113,
+            "end": 141
+          }
+        ],
+        "start": 81,
+        "end": 143
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "start": 79,
+        "end": 80
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 143
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 144
+}

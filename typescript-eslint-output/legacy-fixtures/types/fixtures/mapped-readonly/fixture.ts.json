@@ -1,0 +1,63 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "map",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSMappedType",
+                "constraint": {
+                  "type": "TSStringKeyword",
+                  "start": 99,
+                  "end": 105
+                },
+                "key": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "P",
+                  "optional": false,
+                  "start": 94,
+                  "end": 95
+                },
+                "nameType": null,
+                "optional": true,
+                "readonly": true,
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 109,
+                  "end": 115
+                },
+                "start": 82,
+                "end": 117
+              },
+              "start": 80,
+              "end": 117
+            },
+            "start": 77,
+            "end": 117
+          },
+          "init": null,
+          "start": 77,
+          "end": 117
+        }
+      ],
+      "declare": false,
+      "kind": "let",
+      "start": 73,
+      "end": 118
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 119
+}

@@ -1,0 +1,74 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "start": 95,
+              "end": 98
+            },
+            "kind": "method",
+            "optional": true,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 103,
+                  "end": 106
+                },
+                "start": 101,
+                "end": 106
+              },
+              "start": 99,
+              "end": 107
+            },
+            "start": 95,
+            "end": 107
+          }
+        ],
+        "start": 91,
+        "end": 109
+      },
+      "declare": true,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 87,
+        "end": 90
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 73,
+      "end": 109
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 110
+}

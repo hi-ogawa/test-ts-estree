@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "body": [],
+        "start": 38,
+        "end": 40
+      },
+      "declare": false,
+      "decorators": [
+        {
+          "type": "Decorator",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "decoratorOne",
+            "optional": false,
+            "start": 1,
+            "end": 13
+          },
+          "start": 0,
+          "end": 13
+        },
+        {
+          "type": "Decorator",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "decoratorTwo",
+            "optional": false,
+            "start": 15,
+            "end": 27
+          },
+          "start": 14,
+          "end": 27
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 34,
+        "end": 37
+      },
+      "implements": [],
+      "superClass": null,
+      "start": 0,
+      "end": 40
+    }
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "end": 41
+}

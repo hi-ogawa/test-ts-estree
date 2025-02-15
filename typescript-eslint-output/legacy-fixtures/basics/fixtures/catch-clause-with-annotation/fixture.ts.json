@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TryStatement",
+      "block": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 77,
+        "end": 80
+      },
+      "finalizer": null,
+      "handler": {
+        "type": "CatchClause",
+        "body": {
+          "type": "BlockStatement",
+          "body": [],
+          "start": 96,
+          "end": 98
+        },
+        "param": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "e",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 91,
+              "end": 94
+            },
+            "start": 89,
+            "end": 94
+          },
+          "start": 88,
+          "end": 94
+        },
+        "start": 81,
+        "end": 98
+      },
+      "start": 73,
+      "end": 98
+    },
+    {
+      "type": "TryStatement",
+      "block": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 104,
+        "end": 107
+      },
+      "finalizer": null,
+      "handler": {
+        "type": "CatchClause",
+        "body": {
+          "type": "BlockStatement",
+          "body": [],
+          "start": 127,
+          "end": 129
+        },
+        "param": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "e",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "typeAnnotation": {
+              "type": "TSUnknownKeyword",
+              "start": 118,
+              "end": 125
+            },
+            "start": 116,
+            "end": 125
+          },
+          "start": 115,
+          "end": 125
+        },
+        "start": 108,
+        "end": 129
+      },
+      "start": 100,
+      "end": 129
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 130
+}

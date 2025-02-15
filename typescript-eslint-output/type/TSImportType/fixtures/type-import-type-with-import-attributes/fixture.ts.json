@@ -1,0 +1,63 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "start": 78,
+        "end": 79
+      },
+      "typeAnnotation": {
+        "type": "TSImportType",
+        "argument": {
+          "type": "TSLiteralType",
+          "literal": {
+            "type": "Literal",
+            "raw": "\"A\"",
+            "value": "A",
+            "start": 89,
+            "end": 92
+          },
+          "start": 89,
+          "end": 92
+        },
+        "attributes": [
+          {
+            "type": "ImportAttribute",
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "type",
+              "optional": false,
+              "start": 104,
+              "end": 108
+            },
+            "value": {
+              "type": "Literal",
+              "raw": "\"json\"",
+              "value": "json",
+              "start": 110,
+              "end": 116
+            },
+            "start": 104,
+            "end": 116
+          }
+        ],
+        "qualifier": null,
+        "typeArguments": null,
+        "start": 82,
+        "end": 121
+      },
+      "start": 73,
+      "end": 122
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 123
+}

@@ -1,0 +1,55 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "body": [],
+          "start": 98,
+          "end": 100
+        },
+        "declare": false,
+        "decorators": [
+          {
+            "type": "Decorator",
+            "expression": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "sealed",
+              "optional": false,
+              "start": 74,
+              "end": 80
+            },
+            "start": 73,
+            "end": 80
+          }
+        ],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "Qux",
+          "optional": false,
+          "start": 94,
+          "end": 97
+        },
+        "implements": [],
+        "superClass": null,
+        "start": 88,
+        "end": 100
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "start": 81,
+      "end": 100
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 101
+}

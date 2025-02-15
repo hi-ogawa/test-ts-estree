@@ -1,0 +1,43 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "attributes": [],
+      "declaration": {
+        "type": "TSImportEqualsDeclaration",
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "foo",
+          "optional": false,
+          "start": 87,
+          "end": 90
+        },
+        "importKind": "value",
+        "moduleReference": {
+          "type": "TSExternalModuleReference",
+          "expression": {
+            "type": "Literal",
+            "raw": "'bar'",
+            "value": "bar",
+            "start": 101,
+            "end": 106
+          },
+          "start": 93,
+          "end": 107
+        },
+        "start": 80,
+        "end": 108
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "start": 73,
+      "end": 108
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 109
+}

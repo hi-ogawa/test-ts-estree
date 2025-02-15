@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "declare": false,
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "start": 78,
+        "end": 81
+      },
+      "typeAnnotation": {
+        "type": "TSUnionType",
+        "types": [
+          {
+            "type": "TSTupleType",
+            "elementTypes": [
+              {
+                "type": "TSNumberKeyword",
+                "start": 89,
+                "end": 95
+              },
+              {
+                "type": "TSOptionalType",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 97,
+                  "end": 103
+                },
+                "start": 97,
+                "end": 104
+              },
+              {
+                "type": "TSOptionalType",
+                "typeAnnotation": {
+                  "type": "TSBooleanKeyword",
+                  "start": 106,
+                  "end": 113
+                },
+                "start": 106,
+                "end": 114
+              }
+            ],
+            "start": 88,
+            "end": 115
+          },
+          {
+            "type": "TSIntersectionType",
+            "types": [
+              {
+                "type": "TSTupleType",
+                "elementTypes": [
+                  {
+                    "type": "TSTypeLiteral",
+                    "members": [],
+                    "start": 122,
+                    "end": 124
+                  },
+                  {
+                    "type": "TSUnionType",
+                    "types": [
+                      {
+                        "type": "TSTupleType",
+                        "elementTypes": [
+                          {
+                            "type": "TSOptionalType",
+                            "typeAnnotation": {
+                              "type": "TSNumberKeyword",
+                              "start": 127,
+                              "end": 133
+                            },
+                            "start": 127,
+                            "end": 134
+                          }
+                        ],
+                        "start": 126,
+                        "end": 135
+                      },
+                      {
+                        "type": "TSIntersectionType",
+                        "types": [
+                          {
+                            "type": "TSNullKeyword",
+                            "start": 139,
+                            "end": 143
+                          },
+                          {
+                            "type": "TSArrayType",
+                            "elementType": {
+                              "type": "TSBooleanKeyword",
+                              "start": 146,
+                              "end": 153
+                            },
+                            "start": 146,
+                            "end": 155
+                          }
+                        ],
+                        "start": 139,
+                        "end": 155
+                      }
+                    ],
+                    "start": 126,
+                    "end": 156
+                  }
+                ],
+                "start": 121,
+                "end": 157
+              },
+              {
+                "type": "TSTypeLiteral",
+                "members": [],
+                "start": 160,
+                "end": 162
+              }
+            ],
+            "start": 121,
+            "end": 162
+          }
+        ],
+        "start": 86,
+        "end": 163
+      },
+      "start": 73,
+      "end": 164
+    }
+  ],
+  "sourceType": "module",
+  "start": 73,
+  "end": 165
+}
