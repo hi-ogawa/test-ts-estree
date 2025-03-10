@@ -6,10 +6,10 @@
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 27,
-        "end": 29
+        "start": 19,
+        "end": 21
       },
-      "declare": true,
+      "declare": false,
       "global": false,
       "id": {
         "type": "TSQualifiedName",
@@ -20,37 +20,37 @@
             "decorators": [],
             "name": "abc",
             "optional": false,
-            "start": 15,
-            "end": 18
+            "start": 7,
+            "end": 10
           },
           "right": {
             "type": "Identifier",
             "decorators": [],
             "name": "def",
             "optional": false,
-            "start": 19,
-            "end": 22
+            "start": 11,
+            "end": 14
           },
-          "start": 15,
-          "end": 22
+          "start": 7,
+          "end": 14
         },
         "right": {
           "type": "Identifier",
           "decorators": [],
           "name": "ghi",
           "optional": false,
-          "start": 23,
-          "end": 26
+          "start": 15,
+          "end": 18
         },
-        "start": 15,
-        "end": 26
+        "start": 7,
+        "end": 18
       },
       "kind": "module",
       "start": 0,
-      "end": 29
+      "end": 21
     }
   ],
   "sourceType": "module",
   "start": 0,
-  "end": 30
+  "end": 22
 }

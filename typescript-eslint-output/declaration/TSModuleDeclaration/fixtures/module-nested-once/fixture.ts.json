@@ -6,38 +6,38 @@
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 23,
-        "end": 25
+        "start": 15,
+        "end": 17
       },
-      "declare": true,
+      "declare": false,
       "global": false,
       "id": {
         "type": "TSQualifiedName",
         "left": {
           "type": "Identifier",
           "decorators": [],
-          "name": "abc",
+          "name": "abd",
           "optional": false,
-          "start": 15,
-          "end": 18
+          "start": 7,
+          "end": 10
         },
         "right": {
           "type": "Identifier",
           "decorators": [],
           "name": "def",
           "optional": false,
-          "start": 19,
-          "end": 22
+          "start": 11,
+          "end": 14
         },
-        "start": 15,
-        "end": 22
+        "start": 7,
+        "end": 14
       },
       "kind": "module",
       "start": 0,
-      "end": 25
+      "end": 17
     }
   ],
   "sourceType": "module",
   "start": 0,
-  "end": 26
+  "end": 18
 }

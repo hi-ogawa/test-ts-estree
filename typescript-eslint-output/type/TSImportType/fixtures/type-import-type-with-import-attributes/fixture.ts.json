@@ -26,28 +26,63 @@
           "start": 89,
           "end": 92
         },
-        "attributes": [
-          {
-            "type": "ImportAttribute",
-            "key": {
-              "type": "Identifier",
-              "decorators": [],
-              "name": "type",
+        "options": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "with",
+                "optional": false,
+                "start": 96,
+                "end": 100
+              },
+              "kind": "init",
+              "method": false,
               "optional": false,
-              "start": 104,
-              "end": 108
-            },
-            "value": {
-              "type": "Literal",
-              "raw": "\"json\"",
-              "value": "json",
-              "start": 110,
-              "end": 116
-            },
-            "start": 104,
-            "end": 116
-          }
-        ],
+              "shorthand": false,
+              "value": {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "type",
+                      "optional": false,
+                      "start": 104,
+                      "end": 108
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "optional": false,
+                    "shorthand": false,
+                    "value": {
+                      "type": "Literal",
+                      "raw": "\"json\"",
+                      "value": "json",
+                      "start": 110,
+                      "end": 116
+                    },
+                    "start": 104,
+                    "end": 116
+                  }
+                ],
+                "start": 102,
+                "end": 118
+              },
+              "start": 96,
+              "end": 118
+            }
+          ],
+          "start": 94,
+          "end": 120
+        },
         "qualifier": null,
         "typeArguments": null,
         "start": 82,

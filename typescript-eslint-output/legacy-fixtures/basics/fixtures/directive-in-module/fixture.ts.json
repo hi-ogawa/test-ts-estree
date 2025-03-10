@@ -3,7 +3,6 @@
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "kind": "module",
       "body": {
         "type": "TSModuleBlock",
         "body": [
@@ -76,6 +75,7 @@
         "start": 80,
         "end": 83
       },
+      "kind": "module",
       "start": 73,
       "end": 132
     }

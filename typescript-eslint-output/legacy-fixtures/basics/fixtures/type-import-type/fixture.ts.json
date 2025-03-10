@@ -28,7 +28,7 @@
             "start": 96,
             "end": 99
           },
-          "attributes": [],
+          "options": null,
           "qualifier": null,
           "typeArguments": null,
           "start": 89,
@@ -65,7 +65,7 @@
           "start": 118,
           "end": 121
         },
-        "attributes": [],
+        "options": null,
         "qualifier": {
           "type": "Identifier",
           "decorators": [],

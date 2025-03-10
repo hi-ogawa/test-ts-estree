@@ -31,7 +31,7 @@
                 "start": 91,
                 "end": 93
               },
-              "attributes": [],
+              "options": null,
               "qualifier": {
                 "type": "Identifier",
                 "decorators": [],

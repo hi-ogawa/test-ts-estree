@@ -8,7 +8,6 @@
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "kind": "module",
             "body": {
               "type": "TSModuleBlock",
               "body": [],
@@ -25,6 +24,7 @@
               "start": 107,
               "end": 113
             },
+            "kind": "module",
             "start": 92,
             "end": 116
           },

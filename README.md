@@ -1,4 +1,4 @@
 ```sh
-pnpm setup
+pnpm download
 node generate.mjs
 ```

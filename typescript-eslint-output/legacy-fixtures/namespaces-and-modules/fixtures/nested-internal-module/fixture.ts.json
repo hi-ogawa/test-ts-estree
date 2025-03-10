@@ -3,7 +3,6 @@
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "kind": "module",
       "body": {
         "type": "TSModuleBlock",
         "body": [
@@ -178,7 +177,6 @@
             "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
-              "kind": "module",
               "body": {
                 "type": "TSModuleBlock",
                 "body": [
@@ -254,6 +252,7 @@
                 "start": 233,
                 "end": 234
               },
+              "kind": "module",
               "start": 226,
               "end": 292
             },
@@ -277,6 +276,7 @@
         "start": 80,
         "end": 81
       },
+      "kind": "module",
       "start": 73,
       "end": 294
     }

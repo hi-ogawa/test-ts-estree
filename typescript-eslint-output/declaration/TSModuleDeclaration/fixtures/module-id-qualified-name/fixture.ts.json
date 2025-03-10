@@ -3,55 +3,49 @@
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "kind": "module",
       "body": {
-        "type": "TSModuleDeclaration",
-        "kind": "module",
-        "body": {
-          "type": "TSModuleDeclaration",
-          "kind": "module",
-          "body": {
-            "type": "TSModuleBlock",
-            "body": [],
-            "start": 13,
-            "end": 15
-          },
-          "declare": false,
-          "global": false,
-          "id": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "C",
-            "optional": false,
-            "start": 11,
-            "end": 12
-          },
-          "start": 11,
-          "end": 15
-        },
-        "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "decorators": [],
-          "name": "B",
-          "optional": false,
-          "start": 9,
-          "end": 10
-        },
-        "start": 9,
+        "type": "TSModuleBlock",
+        "body": [],
+        "start": 13,
         "end": 15
       },
       "declare": false,
       "global": false,
       "id": {
-        "type": "Identifier",
-        "decorators": [],
-        "name": "A",
-        "optional": false,
+        "type": "TSQualifiedName",
+        "left": {
+          "type": "TSQualifiedName",
+          "left": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "start": 7,
+            "end": 8
+          },
+          "right": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "start": 9,
+            "end": 10
+          },
+          "start": 7,
+          "end": 10
+        },
+        "right": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "C",
+          "optional": false,
+          "start": 11,
+          "end": 12
+        },
         "start": 7,
-        "end": 8
+        "end": 12
       },
+      "kind": "module",
       "start": 0,
       "end": 15
     }
